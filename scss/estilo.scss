@@ -1,0 +1,70 @@
+@import "variables";
+@import "popUpWhatsApp";
+@import "inicio";
+@import "headerFooter";
+@import "nosotros";
+@import "cannabis-medicinal";
+@import "tienda";
+@import "producto";
+@import "lineaProductos";
+@import "medias";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+html {
+  overflow-x: hidden;
+}
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 170px;
+  display: flex;
+  flex-direction: column;
+  p {
+    color: $verdeOscuro;
+    text-align: center;
+  }
+  p.parrafoTabs {
+    text-align: start;
+  }
+  margin: 0 auto;
+}
+body.inicioBody {
+  background-color: #f3eee9;
+}
+
+.desarrolladoPor{
+  div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C4B45;
+    img{
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+    }
+    p{
+      font-size: 12px;
+      margin: 5px 0!important;
+      color: $blanco;
+    }
+  }
+}

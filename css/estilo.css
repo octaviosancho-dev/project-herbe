@@ -1,0 +1,4635 @@
+@charset "UTF-8";
+.popUpWhatsApp {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 97%;
+  bottom: 11px;
+  margin-right: 11px;
+  margin-top: 12px;
+  display: inline-block;
+  z-index: 100;
+  margin-bottom: 30px;
+}
+
+.popUpWhatsApp p,
+.popUpWhatsApp h1,
+.popUpWhatsApp h2,
+.popUpWhatsApp h3,
+.popUpWhatsApp h4,
+.popUpWhatsApp h5,
+.popUpWhatsApp h6 {
+  margin: 0 !important;
+}
+
+@media only screen and (min-width: 390px) {
+  .popUpWhatsApp {
+    margin-bottom: 78px;
+  }
+}
+
+.popUpWhatsApp .nav-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  width: auto;
+  height: auto;
+  z-index: 9;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp {
+  display: none;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 270px;
+  height: auto;
+  bottom: 85px;
+  right: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
+  box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
+  -webkit-animation: slideInRight 0.6s 0s both;
+          animation: slideInRight 0.6s 0s both;
+}
+
+@media only screen and (max-width: 480px) {
+  .popUpWhatsApp .nav-bottom .popup-whatsapp:focus-within {
+    -webkit-transform: translate(-60px, 80px);
+            transform: translate(-60px, 80px);
+  }
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp p {
+  color: #0E301A;
+  font-weight: 400;
+  font-size: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 0 0px 11px;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .closePopup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+  box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .logoWhatsApp {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px 7px 0 0;
+  gap: 11px;
+  background: #285243;
+  padding: 9px 29px 9px 14px;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .logoWhatsApp p {
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F3EEE9;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #f3eee9;
+  border-radius: 0 0 7px 7px;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"] {
+  width: 207px;
+  height: 35px;
+  margin: 5px 0 12px 0;
+  resize: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 11px;
+  font-size: 0.8rem;
+  background-color: #ffffff;
+  padding: 3%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  outline: none;
+  overflow: hidden;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"]::-webkit-input-placeholder {
+  color: #444444;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"]:-ms-input-placeholder {
+  color: #444444;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"]::-ms-input-placeholder {
+  color: #444444;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"]::placeholder {
+  color: #444444;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .send-msPopup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+  border-radius: 50%;
+  margin-left: 11px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 3px solid #444444;
+}
+
+.popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.popUpWhatsApp .nav-bottom .whatsapp-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 46px;
+  height: 46px;
+  z-index: 8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #49c13a;
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(68, 68, 68, 0.705);
+  box-shadow: 1px 1px 6px 0px rgba(68, 68, 68, 0.705);
+}
+
+.popUpWhatsApp .nav-bottom .whatsapp-button .float {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  z-index: 100;
+}
+
+.popUpWhatsApp .nav-bottom .whatsapp-button .float .my-float {
+  padding: 10px;
+  font-size: 45px;
+}
+
+.popUpWhatsApp .nav-bottom .is-active-whatsapp-popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: 0.6s 0s both;
+          animation: 0.6s 0s both;
+  background-color: #f5f5f5;
+}
+
+.popUpWhatsApp .nav-bottom input.whats-input[type="text"] {
+  width: 207px;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0px solid #ffffff;
+  border-radius: 7px;
+  font-size: 1em;
+  background-color: #ffffff;
+  padding: 0px 0px 0px 10px;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  outline: none;
+}
+
+.popUpWhatsApp .nav-bottom input.whats-input[type="text"]:focus {
+  background-color: #f8f8f8;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.popUpWhatsApp .nav-bottom .icon-font-color {
+  color: #ebe3da;
+}
+
+.popUpWhatsApp .nav-bottom .icon-font-color--black {
+  color: #444444;
+  padding-left: 2px;
+  font-size: 19px;
+}
+
+.inicio p,
+.inicio h1,
+.inicio h2,
+.inicio h3,
+.inicio h4,
+.inicio h5,
+.inicio h6 {
+  margin: 0 !important;
+}
+
+.inicio .carousel {
+  height: 128.89vw;
+}
+
+.inicio .carousel .carousel-indicators {
+  gap: 5vw;
+}
+
+.inicio .carousel .carousel-indicators button {
+  background: transparent;
+  width: 3.33vw;
+  height: 3.33vw;
+  border-radius: 50%;
+  border: unset;
+  background-color: #FFFFFF;
+  opacity: 50%;
+}
+
+.inicio .carousel .carousel-indicators button.active {
+  background-color: #FFFFFF;
+  opacity: 1;
+}
+
+.inicio .carousel .carruselNext {
+  position: absolute;
+  right: 6.57vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.inicio .carousel .carruselPrev {
+  position: absolute;
+  left: 6.57vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.inicio .carousel .carousel-inner h1 {
+  font-size: 10.83vw;
+  font-weight: 800;
+}
+
+.inicio .carousel .carousel-inner .carousel-item {
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  height: 128.89vw;
+}
+
+.inicio .carousel .carousel-inner .button {
+  font-size: 3.61vw;
+  font-weight: 500;
+  line-height: 0;
+  color: #0E301A;
+  background: #FFFFFF;
+  padding: 6.67vw 9.17vw;
+  margin-top: 13.89vw;
+  margin-bottom: 8.33vw;
+  -webkit-box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.2);
+          box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.2);
+  border-radius: 13.89vw;
+}
+
+.inicio .carousel .carousel-inner .w-100 {
+  width: auto !important;
+  height: 128.89vw;
+  overflow: hidden;
+  position: absolute;
+}
+
+.inicio .carousel .carousel-inner .carrusel1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inicio .carousel .carousel-inner .carrusel1 .w-100 {
+  left: -15.83vw;
+}
+
+.inicio .carousel .carousel-inner .carrusel2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inicio .carousel .carousel-inner .carrusel2 .w-100 {
+  width: auto !important;
+  right: -4.44vw;
+  bottom: 0;
+}
+
+.inicio .carousel .carousel-inner .carrusel2 .carousel-caption {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 77.22vw;
+  bottom: 77.78vw;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .w-100 {
+  width: auto !important;
+  height: 129vw;
+  bottom: 0;
+  right: -61.11vw;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .carousel-caption {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(150, 170, 167, 0.5);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  gap: 11.67vw;
+  width: 91.11vw;
+  height: 97.78vw;
+  padding: 11.11vw;
+  left: 0;
+  right: 0;
+  bottom: 18.89vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .carousel-caption h2 {
+  font-size: 6.39vw;
+  font-weight: 700;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5.56vw;
+  width: 51.94vw;
+  height: 47.78vw;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p {
+  text-align: start;
+  color: #FFFFFF;
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+  font-weight: 500;
+}
+
+.inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p .numero {
+  color: #FFFFFF;
+  font-size: 6.39vw;
+  font-weight: 700;
+}
+
+.inicio .insignias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F3EEE9;
+  padding: 6.67vw 4.44vw;
+  gap: 5.28vw;
+}
+
+.inicio .insignias .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4.44vw;
+}
+
+.inicio .insignias .icons svg {
+  width: 19.44vw;
+  height: 19.44vw;
+}
+
+.inicio .insignias .text {
+  width: 88.6vw;
+}
+
+.inicio .insignias .text p {
+  font-weight: 400;
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+}
+
+.inicio .nuestrasLineas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 9.44vw;
+  padding: 8.06vw 4.44vw 13.33vw 4.44vw;
+  background-color: white;
+}
+
+.inicio .nuestrasLineas h2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: #0E301A;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 5.28vw;
+  font-weight: 600;
+}
+
+.inicio .nuestrasLineas .containerProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.22vw;
+}
+
+.inicio .nuestrasLineas .containerProductos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4.44vw;
+  -webkit-animation-name: grow;
+          animation-name: grow;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.inicio .nuestrasLineas .containerProductos div img {
+  width: 33.33vw;
+  height: 33.33vw;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0px 5.56vw 13.89vw rgba(40, 82, 75, 0.15));
+          filter: drop-shadow(0px 5.56vw 13.89vw rgba(40, 82, 75, 0.15));
+}
+
+.inicio .nuestrasLineas .containerProductos div h3 {
+  color: #285243;
+  font-size: 6.39vw;
+  font-weight: 700;
+}
+
+.inicio .nuestrasLineas .containerProductos :nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.inicio .testimonios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/fondo_testimonios_mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 15.56vw 8.33vw 0;
+  background-color: #FFFFFF;
+}
+
+.inicio .testimonios .carousel {
+  width: 91.11vw;
+  height: 88.89vw;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+          box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+}
+
+.inicio .testimonios .carousel .carousel-inner {
+  background: #FFFFFF;
+}
+
+.inicio .testimonios .carousel .carousel-inner h3 {
+  color: #0E301A;
+  font-size: 5.28vw;
+  font-weight: 600;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8.06vw;
+  margin: 0 auto !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.inicio .testimonios .carousel .carousel-inner .carousel-item {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  width: 88.89vw;
+  height: 88.89vw;
+  padding: 8.06vw;
+  top: 16.36vw;
+  margin-left: 1.03vw;
+}
+
+.inicio .testimonios .carousel .carousel-inner .carousel-item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 47.78vw;
+}
+
+.inicio .testimonios .carousel .carousel-inner .carousel-item div p {
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+}
+
+.inicio .testimonios .carousel .carousel-inner .carousel-item .carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inicio .testimonios .carousel .carousel-indicators {
+  gap: 2.22vw;
+  margin-bottom: 6.67vw;
+}
+
+.inicio .testimonios .carousel .carousel-indicators button {
+  border: 0.56vw solid #0E301A;
+}
+
+.inicio .testimonios .carousel .carousel-indicators button.active {
+  background: #0E301A;
+  border: 0.56vw solid #0E301A;
+}
+
+.inicio .testimonios h2 {
+  text-align: center;
+  color: #F3EEE9;
+  width: 88.89vw;
+  font-size: 6.39vw;
+  font-weight: 700;
+  line-height: 8.33vw;
+}
+
+.inicio .testimonios .h2Verde {
+  color: #285243;
+  margin: 34.44vw 0 !important;
+}
+
+.inicio .testimonios .contenedor {
+  width: 100vw;
+  background: #f2f5f6;
+}
+
+.inicio .testimonios .contenedor .textoTestimonios {
+  -webkit-box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+          box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+  background-image: url("../img/fondo_texto.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 91.11vw;
+  height: 71.11vw;
+}
+
+.inicio .comoTrabajamos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 11.94vw 0 15.28vw;
+  gap: 6.94vw;
+  background-image: url("../img/fondo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #FFFFFF;
+}
+
+.inicio .comoTrabajamos h3 {
+  font-size: 5.28vw;
+  font-weight: 600;
+  color: #285243;
+}
+
+.inicio .comoTrabajamos .containerIconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5vw;
+}
+
+.inicio .comoTrabajamos .containerIconos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.78vw;
+}
+
+.inicio .comoTrabajamos .containerIconos div img {
+  width: 5vw;
+  height: 5vw;
+}
+
+.inicio .comoTrabajamos .containerIconos div p {
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+  font-weight: 400;
+  color: #285243;
+}
+
+.inicio .comunidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F3EEE9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7.5vw 3.33vw 0 3.33vw;
+  width: 100%;
+  gap: 8.61vw;
+  overflow: hidden;
+}
+
+.inicio .comunidad h3 {
+  text-align: center;
+  color: #0E301A;
+  font-size: 4.17vw;
+  font-weight: 700;
+  width: 66.11vw;
+}
+
+.inicio .comunidad .containerRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.11vw;
+  width: 94.44vw;
+}
+
+.inicio .comunidad .containerRedes a.posteosFacebook .posteosInstagram,
+.inicio .comunidad .containerRedes a.posteosFacebook .posteosFacebook,
+.inicio .comunidad .containerRedes a.posteosInstagram .posteosInstagram,
+.inicio .comunidad .containerRedes a.posteosInstagram .posteosFacebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.22vw;
+  background: #285243;
+  padding: 8.06vw 6.67vw 8.06vw 3.89vw;
+  width: 46.11vw;
+  height: 30vw;
+}
+
+.inicio .comunidad .containerRedes a.posteosFacebook .posteosInstagram p,
+.inicio .comunidad .containerRedes a.posteosFacebook .posteosFacebook p,
+.inicio .comunidad .containerRedes a.posteosInstagram .posteosInstagram p,
+.inicio .comunidad .containerRedes a.posteosInstagram .posteosFacebook p {
+  width: 33.33vw;
+  font-size: 3.33vw;
+  line-height: 4.44vw;
+  color: #F3EEE9;
+}
+
+.inicio .comunidad .containerRedes .posteosGeneral {
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.22vw;
+  background: #285243;
+  padding: 8.06vw 6.67vw 8.06vw 3.89vw;
+  width: 46.11vw;
+  height: 30vw;
+}
+
+.inicio .comunidad .containerRedes .posteosGeneral p {
+  width: 28.89vw;
+  font-size: 3.33vw;
+  line-height: 4.44vw;
+  color: #F3EEE9;
+}
+
+.inicio .comunidad .containerRedes img {
+  width: 46.11vw;
+  height: 30vw;
+}
+
+.inicio .comunidad .containerRedes .imagen {
+  position: relative;
+}
+
+.inicio .comunidad .containerRedes .imagen svg {
+  position: absolute;
+  right: 0.83vw;
+  top: 0.83vw;
+}
+
+.inicio .comunidad .containerRedes .inactivo {
+  display: none;
+}
+
+.inicio .comunidad .containerRedes .reversa {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+@-webkit-keyframes grow {
+  from {
+    opacity: 30%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  to {
+    opacity: 100;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  from {
+    opacity: 30%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  to {
+    opacity: 100;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .headerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3eee9;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+  }
+  .headerEstilos a {
+    width: 60px;
+    height: 60px;
+  }
+  .headerEstilos a img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .headerEstilos ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  .headerEstilos ul a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: small;
+    color: #0e301a;
+  }
+  .headerEstilos ul .pagActual {
+    font-weight: bold;
+  }
+  .footerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    color: #ebe3da;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 28px;
+  }
+  .footerEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footerEstilos div h3 {
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 15px;
+  }
+  .footerEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .footerEstilos div div a {
+    margin-right: 20px;
+  }
+  .footerEstilos div div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 15px;
+  }
+  .footerEstilos div div div h4 {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 0;
+  }
+  .footerEstilos div div div a {
+    text-decoration: none;
+    color: #ebe3da;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 1439px) {
+  .headerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3eee9;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 64px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+  }
+  .headerEstilos a {
+    width: 49px;
+    height: 49px;
+  }
+  .headerEstilos a img {
+    width: 49px;
+    height: 49px;
+    position: relative;
+    left: 32px;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .headerEstilos a img:hover {
+    width: 51px;
+    height: 51px;
+  }
+  .headerEstilos ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    right: 32px;
+    width: 200px;
+    margin: 0;
+  }
+  .headerEstilos ul a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0e301a;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .headerEstilos ul a:hover {
+    font-weight: 700;
+  }
+  .headerEstilos ul .pagActual {
+    font-weight: bold;
+  }
+  .headerEstilos ul .pagActual:hover {
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .footerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    color: #ebe3da;
+    width: 100%;
+    position: absolute;
+    bottom: 28px;
+    padding-bottom: 175px;
+    padding-top: 25px;
+  }
+  .footerEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footerEstilos div h3 {
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 20px 0 15px 36px;
+  }
+  .footerEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .footerEstilos div div a {
+    margin-right: 20px;
+  }
+  .footerEstilos div div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 36px;
+  }
+  .footerEstilos div div div h4 {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 0;
+  }
+  .footerEstilos div div div a {
+    text-decoration: none;
+    color: #ebe3da;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .headerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3eee9;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 88px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+  }
+  .headerEstilos img {
+    width: 49px;
+    height: 49px;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    left: 119px;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .headerEstilos img:hover {
+    width: 55px;
+    height: 55px;
+  }
+  .headerEstilos ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    right: 100px;
+    width: 320px;
+    margin: 0;
+  }
+  .headerEstilos ul a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #0e301a;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .headerEstilos ul a:hover {
+    font-weight: 700;
+  }
+  .headerEstilos ul .pagActual {
+    font-weight: bold;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .headerEstilos ul .pagActual:hover {
+    font-size: 23px;
+    text-decoration: none;
+  }
+  .footerEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 256px;
+    color: #ebe3da;
+    position: absolute;
+    bottom: 28px;
+    padding-bottom: 175px;
+    width: 100%;
+  }
+  .footerEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footerEstilos div h3 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 53px 0 20px 120px;
+  }
+  .footerEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .footerEstilos div div a {
+    margin-right: 120px;
+  }
+  .footerEstilos div div a svg {
+    width: 31px;
+    height: 31px;
+  }
+  .footerEstilos div div a .facebookIconoWidth {
+    width: 32px;
+    height: 32px;
+  }
+  .footerEstilos div div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 120px;
+    padding: 7px 0;
+  }
+  .footerEstilos div div div svg {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 5px;
+  }
+  .footerEstilos div div div h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .footerEstilos div div div a {
+    text-decoration: none;
+    color: #ebe3da;
+  }
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotros p {
+  text-align: start;
+  color: #0E301A;
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+}
+
+.nosotros .nuestraFilosofia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 91.11vw;
+  gap: 8.61vw;
+  margin-top: 11.11vw;
+}
+
+.nosotros .nuestraFilosofia h1 {
+  text-align: inherit;
+  color: #285243;
+  font-size: 9.17vw;
+  font-weight: 800;
+  line-height: 11.1vw;
+}
+
+.nosotros .nuestroObjetivo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 11.67vw;
+  margin-bottom: 4.72vw;
+  gap: 8.61vw 0;
+}
+
+.nosotros .nuestroObjetivo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nosotros .nuestroObjetivo .div1 {
+  background-color: #EBE3DA;
+  width: 47.78vw;
+  padding: 8.89vw 4.44vw;
+}
+
+.nosotros .nuestroObjetivo .div2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 43.33vw;
+}
+
+.nosotros .nuestroObjetivo .div2 h2 {
+  color: #285243;
+  font-size: 6.39vw;
+  font-weight: 700;
+}
+
+.nosotros .nuestroObjetivo .div3 {
+  width: 90.83vw;
+  height: 33.33vw;
+}
+
+.nosotros .nosotrosImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  width: 91.11vw;
+  height: 153.33vw;
+}
+
+.nosotros .nosotrosImg img {
+  position: absolute;
+  width: 48.61vw;
+  height: 48.61vw;
+  right: 4.72vw;
+  top: 0;
+}
+
+.nosotros .nosotrosImg div {
+  background: #EBE3DA;
+}
+
+.nosotros .nosotrosImg div p {
+  padding: 26.39vw 4.44vw 17.78vw 4.44vw;
+}
+
+.cannabis-medicinal {
+  background-color: #FFFFFF;
+}
+
+.cannabis-medicinal p {
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+  text-align: start;
+}
+
+.cannabis-medicinal .banner {
+  width: 100%;
+  height: 77.78vw;
+  background-image: url("../img/cannabis_fondo_mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7.5vw 4.44vw 6.67vw 4.44vw;
+}
+
+.cannabis-medicinal .banner h1 {
+  color: #F3EEE9;
+  font-size: 9.17vw;
+  line-height: 11.11vw;
+  font-weight: 800;
+  width: 57.78vw;
+  height: 36.67vw;
+  margin-bottom: 6.67vw;
+}
+
+.cannabis-medicinal .banner p {
+  width: 90.83vw;
+  text-align: start;
+  color: #F3EEE9;
+}
+
+.cannabis-medicinal .tituloHistoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 13.33vw 0 8.61vw;
+}
+
+.cannabis-medicinal .tituloHistoria .titulo {
+  padding: 20vw 3.89vw;
+  width: 49.44vw;
+  height: 57.78vw;
+  margin: 0 auto;
+}
+
+.cannabis-medicinal .tituloHistoria .titulo h2 {
+  text-align: center;
+  color: #285243;
+  font-size: 6.39vw;
+  font-weight: 700;
+}
+
+.cannabis-medicinal .tituloHistoria .texto {
+  background: #F3EEE9;
+  padding: 9.72vw 5.28vw 11.11vw 5.28vw;
+}
+
+.cannabis-medicinal .tituloHistoria .texto p {
+  color: #0E301A;
+  width: 38.89vw;
+  height: 38.06vw;
+  font-weight: 400;
+}
+
+.cannabis-medicinal .tituloHistoria .texto .inactivo {
+  display: none;
+}
+
+.cannabis-medicinal .historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6.94vw;
+  padding: 0 4.72vw;
+}
+
+.cannabis-medicinal .historia p {
+  color: #0E301A;
+}
+
+.cannabis-medicinal .productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10.28vw;
+  padding: 0 4.44vw;
+  margin: 10.28vw 0px 11.11vw 0px;
+}
+
+.cannabis-medicinal .productos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  gap: 5.56vw;
+}
+
+.cannabis-medicinal .productos div img {
+  width: 27.78vw;
+  height: 27.78vw;
+}
+
+.cannabis-medicinal .productos div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 57.78vw;
+  gap: 4.44vw;
+}
+
+.cannabis-medicinal .productos div div h4 {
+  color: #0E301A;
+  font-size: 5.28vw;
+  font-weight: 600;
+}
+
+.cannabis-medicinal .productos div div p {
+  color: #0E301A;
+}
+
+.cannabis-medicinal .productos .invertido {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.cannabis-medicinal .mensaje {
+  padding: 11.11vw 0 12.5vw;
+  margin: 0 4.44vw 0;
+  background: #F3EEE9;
+}
+
+.cannabis-medicinal .mensaje h4 {
+  color: #0E301A;
+  text-align: center;
+  font-size: 5.28vw;
+  line-height: 6.67vw;
+  font-weight: 600;
+  width: 90vw;
+  height: 34.44vw;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .mainEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #0e301a;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  .mainEstilos h1 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 15px;
+    color: #0e301a;
+    margin: 51px 0 21px 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(105, 105, 105, 0.233);
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 350px;
+    margin: 0 8px 0 8px;
+  }
+  .mainEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: flex-start;
+    max-width: 156px;
+    margin: 8px;
+  }
+  .mainEstilos div div a {
+    text-decoration: none;
+    color: #0e301a;
+  }
+  .mainEstilos div div a .hoverDiv {
+    margin: 0;
+  }
+  .mainEstilos div div a .hoverDiv img {
+    width: 156px;
+    height: 176px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .mainEstilos div div a .hoverDiv div {
+    display: none;
+  }
+  .mainEstilos div div a h2 {
+    font-size: 0.75em;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 22px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 950px) {
+  .mainEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #0e301a;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  .mainEstilos h1 {
+    font-size: 15px;
+    color: #0e301a;
+    margin: 75px 0 21px 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(105, 105, 105, 0.233);
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: flex-start;
+    max-width: 750px;
+  }
+  .mainEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: flex-start;
+    max-width: 211px;
+    margin: 14px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div div a {
+    text-decoration: none;
+    color: #0e301a;
+  }
+  .mainEstilos div div a .hoverDiv {
+    margin: 0;
+    width: 100%;
+  }
+  .mainEstilos div div a .hoverDiv img {
+    width: 100%;
+    height: 272px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .mainEstilos div div a .hoverDiv div {
+    display: none;
+  }
+  .mainEstilos div div a h2 {
+    font-size: 0.95em;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 22px;
+  }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1439px) {
+  .mainEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #0e301a;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+  .mainEstilos h1 {
+    font-size: 15px;
+    color: #0e301a;
+    margin: 75px 0 21px 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(105, 105, 105, 0.233);
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0 12px 0 12px;
+    max-width: 1000px;
+  }
+  .mainEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: flex-start;
+    max-width: 211px;
+    margin: 14px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div div a {
+    text-decoration: none;
+    color: #0e301a;
+  }
+  .mainEstilos div div a .hoverDiv {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .mainEstilos div div a .hoverDiv img {
+    display: block;
+    width: 100%;
+    height: 272px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .mainEstilos div div a .hoverDiv div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: #28524bcc;
+    margin: 0;
+    opacity: 0;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .mainEstilos div div a .hoverDiv div h3 {
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    opacity: 0;
+  }
+  .mainEstilos div div a .hoverDiv div:hover {
+    opacity: 1;
+  }
+  .mainEstilos div div a .hoverDiv div:hover h3 {
+    opacity: 1;
+  }
+  .mainEstilos div div a h2 {
+    font-size: 0.95em;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 22px;
+  }
+  .mainEstilos div div a h2:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mainEstilos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #0e301a;
+    width: 1300px;
+    margin: auto;
+  }
+  .mainEstilos h1 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 22px;
+    color: #0e301a;
+    margin: 75px 120px 21px 25px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(105, 105, 105, 0.233);
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 1250px;
+    margin: 20px 120px;
+  }
+  .mainEstilos div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: flex-start;
+    max-width: 285px;
+    margin: 0 20px 20px 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .mainEstilos div div a {
+    text-decoration: none;
+    color: #0e301a;
+  }
+  .mainEstilos div div a .hoverDiv {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .mainEstilos div div a .hoverDiv img {
+    display: block;
+    width: 100%;
+    height: 312px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .mainEstilos div div a .hoverDiv div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: #28524bcc;
+    margin: 0;
+    opacity: 0;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .mainEstilos div div a .hoverDiv div h3 {
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    margin: auto;
+    opacity: 0;
+  }
+  .mainEstilos div div a .hoverDiv div:hover {
+    opacity: 1;
+  }
+  .mainEstilos div div a .hoverDiv div:hover h3 {
+    opacity: 1;
+  }
+  .mainEstilos div div a h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 22px;
+  }
+  .mainEstilos div div a h2:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .sectionCarrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+  .sectionCarrusel .carousel {
+    width: 327px;
+  }
+  .sectionCarrusel div button {
+    color: white;
+  }
+  .sectionCarrusel div .carousel-indicators button {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 9px;
+    background-color: white;
+    opacity: 50%;
+  }
+  .sectionCarrusel div .carousel-indicators button.active {
+    background-color: white;
+  }
+  .sectionCarrusel div div h1 {
+    color: #0e301a;
+    font-size: 19px;
+    text-align: left;
+    width: 242px;
+    font-weight: 600;
+  }
+  .sectionCarrusel div div ul {
+    display: none;
+  }
+  .sectionCarrusel div div div img {
+    margin: auto;
+    width: 242px;
+    height: 296px;
+  }
+  .sectionCarrusel div .btnProducto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionCarrusel div .btnProducto a {
+    text-decoration: none;
+  }
+  .sectionCarrusel div .btnProducto a button {
+    width: 143px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 35px 0 35px 0;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+  }
+  .carousel-control-prev span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: -13px;
+  }
+  .carousel-control-next span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: 15px;
+  }
+  .tabContainer {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .tabContainer .tabs {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+  }
+  .tabContainer .tabs li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e301a;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs li::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -33px;
+    width: 0%;
+    height: 4px;
+    background-color: #96aaa7;
+    -webkit-transition: width 0.8s ease;
+    transition: width 0.8s ease;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs .tabDesactivada {
+    cursor: default;
+    color: #0e301a4f;
+  }
+  .tabContainer .tabs li:nth-child(2) {
+    position: relative;
+    left: 5px;
+  }
+  .tabContainer .tabs li:nth-child(2)::after {
+    position: absolute;
+    left: -12px;
+  }
+  .tabContainer .tabs .activeTab::after {
+    width: 164px;
+  }
+  .tabContainer .containerInfo {
+    position: relative;
+    height: 432px;
+  }
+  .tabContainer .containerInfo .contenido {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 0 10px;
+  }
+  .tabContainer .containerInfo .contenido p,
+  .tabContainer .containerInfo .contenido li {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0e301a;
+    list-style: none;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints {
+    margin-top: 10px;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints li {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenido h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0e301a;
+    padding: 28px 0 18px 0;
+  }
+  .tabContainer .containerInfo .contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenido div ul li {
+    color: #0e301a;
+    list-style: disc;
+    width: 125px;
+  }
+  .tabContainer .containerInfo .contenido div .liBalsamo li {
+    width: 150px;
+  }
+  .tabContainer .containerInfo .contenido div .liCombo li {
+    width: 300px;
+  }
+  .tabContainer .containerInfo .contenido div .listaDiferenteAncho li {
+    width: 149px;
+  }
+  .tabContainer .containerInfo .contenido .listaBulletPoints {
+    position: relative;
+    left: -15px;
+  }
+  .tabContainer .containerInfo .contenidoJabon h5 {
+    padding: 5px 0;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div svg {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div p {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo li {
+    list-style: disc;
+    margin-bottom: 5px;
+  }
+  .tabContainer .containerInfo .contenido.activeContenido {
+    display: block;
+    -webkit-animation: fade 1s ease;
+            animation: fade 1s ease;
+  }
+  .tabContainer .containerCombos {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 730px) and (max-width: 900px) {
+  .sectionCarrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 55px;
+  }
+  .sectionCarrusel .carousel {
+    width: 372px;
+  }
+  .sectionCarrusel div {
+    width: 269px;
+  }
+  .sectionCarrusel div .carousel-inner {
+    position: relative;
+    left: 55px;
+  }
+  .sectionCarrusel div button {
+    color: white;
+  }
+  .sectionCarrusel div .carousel-indicators button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 9px;
+    background-color: rgba(255, 255, 255, 0.781);
+  }
+  .sectionCarrusel div .carousel-indicators button.active {
+    background-color: white;
+  }
+  .sectionCarrusel div .carousel-indicators .indicator-combo {
+    position: relative;
+    top: -40px;
+  }
+  .sectionCarrusel div div h1 {
+    color: #0e301a;
+    font-size: 23px;
+    text-align: left;
+    width: 269px;
+    padding-top: 10px;
+    margin-bottom: 47px;
+  }
+  .sectionCarrusel div div ul li {
+    color: #0e301a;
+    font-size: 15px;
+    font-weight: 400;
+    width: 245px;
+    margin-bottom: 5px;
+  }
+  .sectionCarrusel div div div img {
+    width: 269px;
+    height: 312px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sectionCarrusel div .btnProducto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionCarrusel div .btnProducto a {
+    text-decoration: none;
+  }
+  .sectionCarrusel div .btnProducto a button {
+    width: 143px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 60px 0 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+  }
+  .sectionCarrusel .tituloInfo {
+    position: relative;
+    left: -20px;
+  }
+  .carousel-control-prev span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: -8px;
+  }
+  .carousel-control-next span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: 15px;
+  }
+  .tabContainer {
+    width: 562px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    position: relative;
+    left: -20px;
+  }
+  .tabContainer .tabs {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3 rem;
+  }
+  .tabContainer .tabs li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e301a;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs li::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -82px;
+    width: 0%;
+    height: 4px;
+    background-color: #96aaa7;
+    -webkit-transition: width 0.8s ease;
+    transition: width 0.8s ease;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs .tabDesactivada {
+    cursor: default;
+    color: #0e301a4f;
+  }
+  .tabContainer .tabs li:nth-child(2) {
+    position: relative;
+    left: 5px;
+  }
+  .tabContainer .tabs li:nth-child(2)::after {
+    position: absolute;
+    left: -65px;
+  }
+  .tabContainer .tabs .activeTab::after {
+    width: 269px;
+    z-index: 1;
+  }
+  .tabContainer .lineaTabs {
+    z-index: 0;
+    width: 680px;
+    height: 0.5px;
+    background-color: #ebe3da;
+    position: absolute;
+    top: 28px;
+    left: -43px;
+  }
+  .tabContainer .containerInfo {
+    position: relative;
+    height: 432px;
+  }
+  .tabContainer .containerInfo .contenido {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 0 10px;
+  }
+  .tabContainer .containerInfo .contenido p,
+  .tabContainer .containerInfo .contenido li {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0e301a;
+    list-style: none;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints {
+    margin-top: 10px;
+    padding-left: 70px;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints li {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenido h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0e301a;
+    padding: 36px 0 18px 0;
+  }
+  .tabContainer .containerInfo .contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenido div ul li {
+    color: #0e301a;
+    list-style: disc;
+    width: 125px;
+  }
+  .tabContainer .containerInfo .contenido div .liBalsamo li {
+    width: 150px;
+  }
+  .tabContainer .containerInfo .contenido div .liCombo li {
+    width: 300px;
+  }
+  .tabContainer .containerInfo .contenido div .listaDiferenteAncho li {
+    width: 149px;
+  }
+  .tabContainer .containerInfo .contenido .listaBulletPoints {
+    position: relative;
+    left: -15px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div svg {
+    width: 22px;
+    height: 22px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div p {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo li {
+    list-style: disc;
+    margin-bottom: 5px;
+  }
+  .tabContainer .containerInfo .contenido.activeContenido {
+    display: block;
+    -webkit-animation: fade 1s ease;
+            animation: fade 1s ease;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1439px) {
+  .sectionCarrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 55px;
+  }
+  .sectionCarrusel .carousel {
+    width: 372px;
+  }
+  .sectionCarrusel div {
+    width: 269px;
+  }
+  .sectionCarrusel div .carousel-inner {
+    position: relative;
+    left: 55px;
+  }
+  .sectionCarrusel div button {
+    color: white;
+  }
+  .sectionCarrusel div .carousel-indicators button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 9px;
+    background-color: rgba(255, 255, 255, 0.781);
+  }
+  .sectionCarrusel div .carousel-indicators button.active {
+    background-color: white;
+  }
+  .sectionCarrusel div .carousel-indicators .indicator-combo {
+    position: relative;
+    top: -40px;
+  }
+  .sectionCarrusel div div h1 {
+    color: #0e301a;
+    font-size: 23px;
+    text-align: left;
+    width: 269px;
+    padding-top: 10px;
+    margin-bottom: 47px;
+  }
+  .sectionCarrusel div div ul li {
+    color: #0e301a;
+    font-size: 15px;
+    font-weight: 400;
+    width: 245px;
+    margin-bottom: 5px;
+  }
+  .sectionCarrusel div div div img {
+    width: 269px;
+    height: 312px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sectionCarrusel div .btnProducto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionCarrusel div .btnProducto a {
+    text-decoration: none;
+  }
+  .sectionCarrusel div .btnProducto a button {
+    width: 143px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 60px 0 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .sectionCarrusel div .btnProducto a button:hover {
+    color: black;
+    background-color: #c3b09a;
+  }
+  .sectionCarrusel .tituloInfo {
+    position: relative;
+    left: -20px;
+    margin-left: 50px;
+  }
+  .carousel-control-prev span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: -8px;
+  }
+  .carousel-control-next span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: 15px;
+  }
+  .tabContainer {
+    width: 562px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    position: relative;
+    left: -20px;
+  }
+  .tabContainer .tabs {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+  }
+  .tabContainer .tabs li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e301a;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs li::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -82px;
+    width: 0%;
+    height: 4px;
+    background-color: #96aaa7;
+    -webkit-transition: width 0.8s ease;
+    transition: width 0.8s ease;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs .tabDesactivada {
+    cursor: default;
+    color: #0e301a4f;
+  }
+  .tabContainer .tabs li:nth-child(2) {
+    position: relative;
+    left: 5px;
+  }
+  .tabContainer .tabs li:nth-child(2)::after {
+    position: absolute;
+    left: -65px;
+  }
+  .tabContainer .tabs .activeTab::after {
+    width: 269px;
+    z-index: 1;
+  }
+  .tabContainer .lineaTabs {
+    z-index: 0;
+    width: 680px;
+    height: 0.5px;
+    background-color: #ebe3da;
+    position: absolute;
+    top: 28px;
+    left: -43px;
+  }
+  .tabContainer .containerInfo {
+    position: relative;
+    height: 432px;
+  }
+  .tabContainer .containerInfo .contenido {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 0 10px;
+  }
+  .tabContainer .containerInfo .contenido p,
+  .tabContainer .containerInfo .contenido li {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0e301a;
+    list-style: none;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints {
+    margin-top: 10px;
+    padding-left: 70px;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints li {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenido h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0e301a;
+    padding: 36px 0 18px 0;
+  }
+  .tabContainer .containerInfo .contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenido div ul li {
+    color: #0e301a;
+    list-style: disc;
+    width: 125px;
+  }
+  .tabContainer .containerInfo .contenido div .liBalsamo li {
+    width: 150px;
+  }
+  .tabContainer .containerInfo .contenido div .liCombo li {
+    width: 300px;
+  }
+  .tabContainer .containerInfo .contenido div .listaDiferenteAncho li {
+    width: 149px;
+  }
+  .tabContainer .containerInfo .contenido .listaBulletPoints {
+    position: relative;
+    left: -15px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div svg {
+    width: 22px;
+    height: 22px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div p {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo li {
+    list-style: disc;
+    margin-bottom: 5px;
+  }
+  .tabContainer .containerInfo .contenido.activeContenido {
+    display: block;
+    -webkit-animation: fade 1s ease;
+            animation: fade 1s ease;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .sectionCarrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 55px;
+  }
+  .sectionCarrusel .carousel {
+    width: 564px;
+  }
+  .sectionCarrusel .tituloInfo {
+    padding-top: 30px;
+    margin-left: 150px;
+  }
+  .sectionCarrusel div {
+    width: 564px;
+  }
+  .sectionCarrusel div .carousel-inner {
+    position: relative;
+    left: 120px;
+  }
+  .sectionCarrusel div button {
+    color: white;
+  }
+  .sectionCarrusel div .carousel-indicators button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 9px;
+    background-color: rgba(255, 255, 255, 0.781);
+  }
+  .sectionCarrusel div .carousel-indicators button.active {
+    background-color: white;
+  }
+  .sectionCarrusel div div h1 {
+    color: #0e301a;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 47px;
+  }
+  .sectionCarrusel div div ul {
+    padding-left: 45px;
+  }
+  .sectionCarrusel div div ul li {
+    color: #0e301a;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    width: 535px;
+  }
+  .sectionCarrusel div div div img {
+    width: 488px;
+    height: 520px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sectionCarrusel div .btnProducto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionCarrusel div .btnProducto a {
+    text-decoration: none;
+  }
+  .sectionCarrusel div .btnProducto a button {
+    width: 161px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 60px 0 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+  }
+  .sectionCarrusel div .btnProducto a button:hover {
+    color: black;
+    background-color: #c3b09a;
+  }
+  .carousel-control-prev span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: 50px;
+  }
+  .carousel-control-next span {
+    width: 24px;
+    height: 48px;
+    position: relative;
+    left: 113px;
+  }
+  .tabContainer {
+    width: 994px;
+    margin: 50px auto;
+    position: relative;
+    left: -20px;
+  }
+  .tabContainer .tabs {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+  }
+  .tabContainer .tabs li {
+    font-size: 27px;
+    font-weight: 600;
+    color: #0e301a;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs li::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: -110px;
+    width: 0%;
+    height: 4px;
+    background-color: #96aaa7;
+    -webkit-transition: width 0.8s ease;
+    transition: width 0.8s ease;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .tabContainer .tabs .tabDesactivada {
+    cursor: default;
+    color: #0e301a4f;
+  }
+  .tabContainer .tabs li:nth-child(2) {
+    position: relative;
+    left: 5px;
+  }
+  .tabContainer .tabs li:nth-child(2)::after {
+    position: absolute;
+    left: -70px;
+  }
+  .tabContainer .tabs .activeTab::after {
+    width: 386px;
+    z-index: 1;
+  }
+  .tabContainer .lineaTabs {
+    z-index: 0;
+    width: 1200px;
+    height: 0.5px;
+    background-color: #ebe3da;
+    position: absolute;
+    top: 48px;
+    left: -60px;
+  }
+  .tabContainer .containerInfo {
+    position: relative;
+    height: 550px;
+  }
+  .tabContainer .containerInfo .contenido {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 0 55px;
+  }
+  .tabContainer .containerInfo .contenido p,
+  .tabContainer .containerInfo .contenido li {
+    font-size: 22px;
+    font-weight: 400;
+    color: #0e301a;
+    list-style: none;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints {
+    margin-top: 10px;
+    padding-left: 70px;
+  }
+  .tabContainer .containerInfo .contenido .svgBulletPoints li {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenido h5 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0e301a;
+    padding: 36px 0 18px 0;
+  }
+  .tabContainer .containerInfo .contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenido div ul li {
+    color: #0e301a;
+    list-style: disc;
+    width: 322px;
+  }
+  .tabContainer .containerInfo .contenido div .liCombo li {
+    width: 425px;
+  }
+  .tabContainer .containerInfo .contenido div .listaDiferenteAncho li {
+    width: 322px;
+  }
+  .tabContainer .containerInfo .contenido .listaBulletPoints {
+    position: relative;
+    left: -15px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div svg {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo div p {
+    padding-left: 18px;
+  }
+  .tabContainer .containerInfo .contenidoMasInfo li {
+    list-style: disc;
+    margin-bottom: 5px;
+  }
+  .tabContainer .containerInfo .contenido.activeContenido {
+    display: block;
+    -webkit-animation: fade 1s ease;
+            animation: fade 1s ease;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.lineaProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15.56vw 4.44vw 0 4.44vw;
+  gap: 11.39vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.lineaProductos .descripcion h1 {
+  text-align: start;
+  font-size: 9.17vw;
+  line-height: 11.11vw;
+  color: #0E301A;
+  font-weight: 800;
+}
+
+.lineaProductos .descripcion p {
+  text-align: start;
+  font-size: 4.17vw;
+  line-height: 6.67vw;
+  font-weight: 400;
+  color: #0E301A;
+  margin-top: 6.39vw;
+}
+
+.lineaProductos .descripcion p br {
+  display: none;
+}
+
+.lineaProductos .productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4.44vw;
+}
+
+.lineaProductos .productos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 43.33vw;
+  gap: 3.33vw;
+}
+
+.lineaProductos .productos div img {
+  width: 43.33vw;
+}
+
+.lineaProductos .productos div p {
+  text-align: start;
+  font-size: 3.33vw;
+  line-height: 4.44vw;
+  font-weight: 400;
+}
+
+.lineaProductos .productos div .inactivo {
+  margin-top: 1.94vw;
+  background-color: black;
+  border-radius: 13.89vw;
+  padding: 2.22vw 8.89vw;
+  -webkit-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.lineaProductos .productos div .inactivo:hover {
+  background-color: #C3B09A;
+}
+
+.lineaProductos .productos div .inactivo:hover button {
+  color: black;
+}
+
+.lineaProductos .productos div .inactivo button {
+  font-weight: 500;
+  font-size: 3.61vw;
+  line-height: 4.44vw;
+  color: #FFFFFF;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+@media only screen and (min-width: 744px) {
+  .inicio .carousel {
+    height: 62.37vw;
+  }
+  .inicio .carousel .carousel-indicators {
+    gap: 2.42vw;
+  }
+  .inicio .carousel .carousel-indicators button {
+    width: 1.61vw;
+    height: 1.61vw;
+  }
+  .inicio .carousel .carouselNext {
+    right: 3.23vw;
+  }
+  .inicio .carousel .carruselPrev {
+    left: 3.23vw;
+  }
+  .inicio .carousel .carousel-inner h1 {
+    text-align: start;
+    font-size: 5.24vw;
+  }
+  .inicio .carousel .carousel-inner .carousel-item {
+    height: 62.37vw;
+  }
+  .inicio .carousel .carousel-inner .button {
+    font-size: 1.75vw;
+    padding: 2.9vw 4.44vw;
+    border-radius: 6.72vw;
+    margin-top: 6.72vw;
+    margin-bottom: 4.03vw;
+  }
+  .inicio .carousel .carousel-inner .w-100 {
+    width: auto !important;
+    height: 62.37vw;
+  }
+  .inicio .carousel .carousel-inner .carousel-caption {
+    right: unset;
+    left: 6%;
+    bottom: 6.99vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel1 .w-100 {
+    width: 100% !important;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .inicio .carousel .carousel-inner .carrusel2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .w-100 {
+    width: 100% !important;
+    height: auto;
+    right: 0;
+    bottom: -6.05vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .carousel-caption {
+    width: 37.37vw;
+    bottom: 24.19vw;
+    left: 5.11vw;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .carousel-caption h1 {
+    text-align: center;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .w-100 {
+    width: 100% !important;
+    height: auto;
+    right: 0;
+    bottom: -6.05vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 91.4vw;
+    height: 45.16vw;
+    padding: 5.38vw 7.8vw 4.44vw 7.8vw;
+    gap: 14.92vw;
+    bottom: 9.14vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption h2 {
+    text-align: start;
+    font-size: 4.44vw;
+    font-weight: 800;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 65.19vw;
+    height: 34.41vw;
+    gap: 3.36vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p {
+    font-size: 3.09vw;
+    font-weight: 500;
+    line-height: 4.3vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p .numero {
+    font-size: 4.44vw;
+    line-height: 5.38vw;
+    font-weight: 800;
+  }
+  .inicio .insignias {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 9.27vw 4.44vw;
+    gap: 3.23vw;
+  }
+  .inicio .insignias .icons {
+    gap: 2.15vw;
+  }
+  .inicio .insignias .icons svg {
+    width: 9.41vw;
+    height: 9.41vw;
+  }
+  .inicio .insignias .text {
+    width: 42.61vw;
+  }
+  .inicio .insignias .text p {
+    font-size: 2.22vw;
+    line-height: 3.23vw;
+  }
+  .inicio .nuestrasLineas {
+    padding: 9.81vw;
+    gap: 5.65vw;
+  }
+  .inicio .nuestrasLineas h2 {
+    font-size: 2.55vw;
+    font-weight: 800;
+  }
+  .inicio .nuestrasLineas .containerProductos {
+    gap: 1.08vw;
+  }
+  .inicio .nuestrasLineas .containerProductos div {
+    gap: 5.38vw;
+  }
+  .inicio .nuestrasLineas .containerProductos div img {
+    width: 26.88vw;
+    height: 26.88vw;
+    -webkit-filter: drop-shadow(0px 2.69vw 6.72vw rgba(40, 82, 75, 0.15));
+            filter: drop-shadow(0px 2.69vw 6.72vw rgba(40, 82, 75, 0.15));
+  }
+  .inicio .nuestrasLineas .containerProductos div h3 {
+    font-size: 4.44vw;
+  }
+  .inicio .testimonios {
+    background-image: url("../img/fondo_testimonios_tablet.jpg");
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3.23vw;
+    padding: 9.68vw 4.03vw;
+  }
+  .inicio .testimonios .carousel {
+    width: 44.09vw;
+    height: 41.94vw;
+    -webkit-box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+            box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+  }
+  .inicio .testimonios .carousel .carousel-inner h3 {
+    font-size: 2.55vw;
+    top: 3.9vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item {
+    width: 43.01vw;
+    height: 43.01vw;
+    padding: 3.9vw;
+    top: 7.93vw;
+    margin-left: 0.54vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item div {
+    gap: 3.36vw;
+    height: 22.31vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item div p {
+    font-size: 2.02vw;
+    line-height: 3.23vw;
+  }
+  .inicio .testimonios .carousel .carousel-indicators {
+    gap: 1.08vw;
+    margin-bottom: 3.23vw;
+  }
+  .inicio .testimonios .carousel .carousel-indicators button {
+    border: 0.27vw solid;
+  }
+  .inicio .testimonios .carousel .carousel-indicators button.active {
+    border: 0.27vw solid;
+  }
+  .inicio .testimonios h2 {
+    width: 43.01vw;
+    font-size: 4.44vw;
+    font-weight: 800;
+    line-height: 5.38vw;
+  }
+  .inicio .testimonios .h2Verde {
+    display: none;
+    margin: 16.67vw 0 !important;
+  }
+  .inicio .testimonios .contenedor {
+    all: unset;
+    -webkit-box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+            box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+  }
+  .inicio .testimonios .contenedor .textoTestimonios {
+    -webkit-box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+            box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+    background-image: url("../img/fondo_texto_tablet.png");
+    width: 44.09vw;
+    height: 41.94vw;
+  }
+  .inicio .comoTrabajamos {
+    background-image: unset;
+    background-color: #FFFFFF;
+    padding: 13.44vw 12.23vw;
+    gap: 7.66vw;
+  }
+  .inicio .comoTrabajamos h3 {
+    font-size: 2.95vw;
+    font-weight: 700;
+  }
+  .inicio .comoTrabajamos .containerIconos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1.08;
+  }
+  .inicio .comoTrabajamos .containerIconos div {
+    width: 14.25vw;
+    gap: 2.02vw;
+  }
+  .inicio .comoTrabajamos .containerIconos div img {
+    width: 3.23vw;
+    height: 3.23vw;
+  }
+  .inicio .comoTrabajamos .containerIconos div p {
+    font-size: 1.82vw;
+    line-height: 3.23vw;
+  }
+  .inicio .comunidad {
+    margin: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 4.84vw;
+    padding: 3.63vw 1.61vw 0 1.61vw;
+  }
+  .inicio .comunidad h3 {
+    font-size: 2.55vw;
+    font-weight: 600;
+    width: auto;
+  }
+  .inicio .comunidad .containerRedes {
+    width: auto;
+    gap: 0.54vw;
+  }
+  .inicio .comunidad .containerRedes .posteosInstagram,
+  .inicio .comunidad .containerRedes .posteosFacebook {
+    display: none;
+    width: 17.34vw;
+    height: 13.98vw;
+    gap: 1.08vw;
+    padding: 3.9vw 3.23vw 3.9vw 1.88vw;
+  }
+  .inicio .comunidad .containerRedes .posteosInstagram p,
+  .inicio .comunidad .containerRedes .posteosFacebook p {
+    width: 16.13vw;
+    font-size: 1.61vw;
+    line-height: 2.15vw;
+  }
+  .inicio .comunidad .containerRedes .inactivo {
+    display: block;
+  }
+  .inicio .comunidad .containerRedes .posteosGeneral {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 17.34vw;
+    height: 13.98vw;
+    gap: 1.08vw;
+    padding: 3.9vw 3.23vw 3.9vw 1.88vw;
+  }
+  .inicio .comunidad .containerRedes .posteosGeneral p {
+    width: 13.98vw;
+    font-size: 1.61vw;
+    line-height: 2.15vw;
+  }
+  .inicio .comunidad .containerRedes .posteosGeneral svg {
+    width: 2.42vw;
+    right: 0.4vw;
+    top: 0.4vw;
+  }
+  .inicio .comunidad .containerRedes img {
+    width: 17.34vw;
+    height: 13.98vw;
+  }
+  .nosotros {
+    padding: 7.53vw 4.3vw 0 4.3vw;
+  }
+  .nosotros p {
+    font-size: 2.02vw;
+    line-height: 3.23vw;
+  }
+  .nosotros .nuestraFilosofia {
+    width: 91.4vw;
+    height: 24.73vw;
+    margin: 0;
+    gap: 4.17vw;
+  }
+  .nosotros .nuestraFilosofia h1 {
+    width: 21.1vw;
+    height: 10.75vw;
+    font-size: 4.44vw;
+    line-height: 5.38vw;
+  }
+  .nosotros .nuestraFilosofia p {
+    width: 91.4vw;
+    height: 9.81vw;
+  }
+  .nosotros .nuestroObjetivo {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6.45vw;
+    margin-bottom: 7.53vw;
+  }
+  .nosotros .nuestroObjetivo .div1 {
+    width: 28.36vw;
+    height: 27.96vw;
+    padding: 4.17vw 4.7vw;
+  }
+  .nosotros .nuestroObjetivo .div2 {
+    width: 26.88vw;
+  }
+  .nosotros .nuestroObjetivo .div2 h2 {
+    font-size: 3.09vw;
+    line-height: 4.3vw;
+  }
+  .nosotros .nuestroObjetivo .div3 {
+    width: 36.16vw;
+    height: 27.96vw;
+  }
+  .nosotros .nosotrosImg {
+    width: 91.4vw;
+    height: auto;
+  }
+  .nosotros .nosotrosImg img {
+    top: 46%;
+    -webkit-transform: translateY(-44%);
+            transform: translateY(-44%);
+    width: 32.53vw;
+    height: 32.53vw;
+    right: 0;
+  }
+  .nosotros .nosotrosImg div {
+    width: 83.47vw;
+    height: 45.16vw;
+  }
+  .nosotros .nosotrosImg div p {
+    padding: 6.32vw 31.45vw 6.32vw 4.84vw;
+  }
+  .cannabis-medicinal p {
+    font-size: 2.02vw;
+    line-height: 3.23vw;
+  }
+  .cannabis-medicinal .banner {
+    height: auto;
+    padding: 10.75vw 27.96vw 3.23vw 12.23vw;
+    background-image: url("../img/cannabis_fondo_tablet.jpg");
+  }
+  .cannabis-medicinal .banner h1 {
+    width: 50vw;
+    height: 11.29vw;
+    font-size: 4.44vw;
+    line-height: 5.38vw;
+    margin-bottom: 2.55vw;
+  }
+  .cannabis-medicinal .banner h1 br {
+    display: none;
+  }
+  .cannabis-medicinal .banner p {
+    width: 59.81vw;
+    height: 9.81vw;
+  }
+  .cannabis-medicinal .tituloHistoria {
+    margin: 5.38vw 4.3vw 4.17vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cannabis-medicinal .tituloHistoria .titulo {
+    width: 31.59vw;
+    height: 27.96vw;
+    padding: 9.68vw 1.88vw;
+    margin: 0 0 0 auto;
+  }
+  .cannabis-medicinal .tituloHistoria .titulo h2 {
+    font-size: 3.09vw;
+  }
+  .cannabis-medicinal .tituloHistoria .texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3.09vw 7.8vw;
+    gap: 4.03vw;
+    width: 59.81vw;
+    height: 32.26vw;
+  }
+  .cannabis-medicinal .tituloHistoria .texto .inactivo {
+    display: inline;
+  }
+  .cannabis-medicinal .tituloHistoria .texto p {
+    width: auto;
+    height: auto;
+  }
+  .cannabis-medicinal .historia {
+    padding: 0 4.3vw;
+    gap: 4.03vw;
+  }
+  .cannabis-medicinal .historia .inactivo {
+    display: none;
+  }
+  .cannabis-medicinal .productos {
+    gap: 5.38vw;
+    padding: 0 16.13vw;
+    margin: 6.45vw 0 12.9vw;
+  }
+  .cannabis-medicinal .productos div {
+    gap: 2.69vw;
+  }
+  .cannabis-medicinal .productos div img {
+    width: 20.43vw;
+    height: 20.43vw;
+  }
+  .cannabis-medicinal .productos div div {
+    width: 44.62vw;
+    gap: 0.54vw;
+  }
+  .cannabis-medicinal .productos div div h4 {
+    font-size: 2.55vw;
+  }
+  .cannabis-medicinal .mensaje {
+    padding: 5.39vw 0 6.05vw;
+    margin: 0 4.3vw 12.9vw;
+  }
+  .cannabis-medicinal .mensaje h4 {
+    width: 74.54vw;
+    height: 16.67vw;
+    font-size: 3.09vw;
+    line-height: 4.3vw;
+    font-weight: 500;
+  }
+  .lineaProductos {
+    padding: 9.68vw 4.03vw 5.24vw 4.03vw;
+    gap: 7.53vw;
+  }
+  .lineaProductos .descripcion {
+    gap: 8.6vw;
+  }
+  .lineaProductos .descripcion h1 {
+    font-size: 4.44vw;
+    line-height: 5.38vw;
+  }
+  .lineaProductos .descripcion p {
+    font-size: 3.09vw;
+    line-height: 4.3vw;
+    font-weight: 500;
+    margin-top: 8.6vw;
+  }
+  .lineaProductos .productos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3.23vw;
+    width: 28.36vw;
+  }
+  .lineaProductos .productos div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3.06vw;
+    width: 28.36vw;
+  }
+  .lineaProductos .productos div img {
+    width: 28.36vw;
+  }
+  .lineaProductos .productos div p {
+    font-size: 2.02vw;
+    line-height: 3.23vw;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .lineaProductos .productos div .inactivo {
+    padding: 1.61vw 4.3vw;
+    margin-top: 2.69vw;
+  }
+  .lineaProductos .productos div .inactivo button {
+    font-size: 1.75vw;
+    line-height: 2.15vw;
+  }
+  .popUpWhatsApp {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .inicio .carousel {
+    height: 45vw;
+  }
+  .inicio .carousel .carousel-indicators {
+    margin-bottom: 3.33vw;
+    gap: 1.25vw;
+  }
+  .inicio .carousel .carousel-indicators button {
+    width: 0.83vw;
+    height: 0.83vw;
+  }
+  .inicio .carousel .carruselNext {
+    right: 1.67vw;
+    display: block;
+  }
+  .inicio .carousel .carruselPrev {
+    left: 1.67vw;
+    display: block;
+  }
+  .inicio .carousel .carousel-inner h1 {
+    font-size: 4.72vw;
+    font-weight: 800;
+  }
+  .inicio .carousel .carousel-inner .button {
+    font-size: 1.11vw;
+    padding: 1.67vw 2.29vw;
+    margin-top: 3.47vw;
+    margin-bottom: 2.08vw;
+    -webkit-box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.2);
+            box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.2);
+    border-radius: 3.47vw;
+  }
+  .inicio .carousel .carousel-inner .w-100 {
+    height: 45vw;
+  }
+  .inicio .carousel .carousel-inner .carousel-item {
+    height: 45vw;
+  }
+  .inicio .carousel .carousel-inner .carousel-caption {
+    bottom: 6.94vw;
+    left: 13%;
+  }
+  .inicio .carousel .carousel-inner .carrusel1 .w-100 {
+    width: 100% !important;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .w-100 {
+    bottom: -6.6vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .carousel-caption {
+    width: 34.72vw;
+    bottom: 15.83vw;
+    left: 8.06vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel2 .carousel-caption h1 {
+    text-align: start;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .w-100 {
+    bottom: -6.6vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 83.33vw;
+    height: 33.33vw;
+    padding: 3.96vw 6.18vw 3.82vw 8.26vw;
+    bottom: 6.94vw;
+    gap: 7.71vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption h2 {
+    text-align: start;
+    font-size: 4.72vw;
+    width: 26.81vw;
+    font-weight: bolder;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel {
+    width: 34.38vw;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2.08vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p {
+    font-size: 2.08vw;
+    line-height: 3.89vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p .numero {
+    font-size: 2.08vw;
+    font-weight: 700;
+    line-height: 3.89vw;
+  }
+  .inicio .carousel .carousel-inner .carrusel3 .carousel-caption .textoCarrusel p b {
+    font-size: 2.08vw;
+    font-weight: 700;
+    line-height: 3.89vw;
+  }
+  .inicio .insignias {
+    padding: 3.89vw 8.33vw;
+    gap: 7.36vw;
+  }
+  .inicio .insignias .icons {
+    gap: 2.01vw;
+  }
+  .inicio .insignias .icons svg {
+    width: 7.22vw;
+    height: 7.22vw;
+  }
+  .inicio .insignias .text {
+    width: 37.69vw;
+  }
+  .inicio .insignias .text p {
+    font-size: 1.53vw;
+    line-height: 2.22vw;
+    font-weight: 400;
+  }
+  .inicio .nuestrasLineas {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4.38vw;
+    gap: 6.67vw;
+  }
+  .inicio .nuestrasLineas h2 {
+    font-size: 1.88vw;
+  }
+  .inicio .nuestrasLineas .containerProductos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 11.11vw;
+  }
+  .inicio .nuestrasLineas .containerProductos div {
+    -webkit-animation-name: unset;
+            animation-name: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2.78vw;
+  }
+  .inicio .nuestrasLineas .containerProductos div h3 {
+    font-size: 1.88vw;
+  }
+  .inicio .nuestrasLineas .containerProductos div img {
+    width: 17.36vw;
+    height: 17.36vw;
+    -webkit-transition: 450ms ease-in-out;
+    transition: 450ms ease-in-out;
+    -webkit-filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+            filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+  }
+  .inicio .nuestrasLineas .containerProductos div img:hover {
+    -webkit-filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.2)) drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+            filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.2)) drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+    -webkit-transform: translateY(-0.69vw);
+            transform: translateY(-0.69vw);
+  }
+  .inicio .nuestrasLineas .containerProductos :nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inicio .testimonios {
+    background-image: url("../img/fondo_testimonios_desktop.jpg");
+    gap: 1.67vw;
+    padding: 5vw 2.08vw;
+  }
+  .inicio .testimonios h2 {
+    font-size: 2.78vw;
+    line-height: 3.33vw;
+  }
+  .inicio .testimonios .carousel {
+    width: 40.97vw;
+    height: 24.44vw;
+    -webkit-box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+            box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+  }
+  .inicio .testimonios .carousel .carousel-indicators {
+    gap: 0.56vw;
+    margin-bottom: 1.11vw;
+  }
+  .inicio .testimonios .carousel .carousel-indicators button {
+    border: 0.14vw solid #0E301A;
+  }
+  .inicio .testimonios .carousel .carousel-indicators button.active {
+    border: 0.14vw solid #0E301A;
+  }
+  .inicio .testimonios .carousel h2 {
+    width: 25.79vw;
+    font-size: 2.29vw;
+    line-height: 2.78vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner h3 {
+    font-size: 1.88vw;
+    margin-bottom: 1.11vw;
+    top: 2.01vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height: 24.44vw;
+    padding: 2.71vw 3.33vw;
+    top: 4.1vw;
+    margin-left: 0;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item div {
+    gap: 1.6vw;
+    height: 13.54vw;
+  }
+  .inicio .testimonios .carousel .carousel-inner .carousel-item div p {
+    font-size: 1.53vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+  }
+  .inicio .testimonios .contenedor {
+    -webkit-box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+            box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+  }
+  .inicio .testimonios .contenedor .textoTestimonios {
+    background-image: url("../img/fondo_texto_desktop.png");
+    width: 40.97vw;
+    height: 24.44vw;
+  }
+  .inicio .comoTrabajamos {
+    padding: 12.01vw 6.32vw 12.5vw 6.32vw;
+    gap: 3.96vw;
+  }
+  .inicio .comoTrabajamos h3 {
+    font-size: 1.88vw;
+    font-weight: 600;
+  }
+  .inicio .comoTrabajamos .containerIconos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1.11vw;
+  }
+  .inicio .comoTrabajamos .containerIconos div {
+    width: 11.94vw;
+    gap: 1.32vw;
+  }
+  .inicio .comoTrabajamos .containerIconos div img {
+    width: 2.43vw;
+    height: 2.43vw;
+  }
+  .inicio .comoTrabajamos .containerIconos div p {
+    font-size: 1.39vw;
+    line-height: 1.67vw;
+    font-weight: 400;
+  }
+  .inicio .comunidad {
+    gap: 2.01vw;
+    padding: 2.71vw 0.83vw 0 0.83vw;
+  }
+  .inicio .comunidad h3 {
+    color: #354044;
+    font-size: 1.88vw;
+  }
+  .inicio .comunidad .containerRedes {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 0.28vw;
+  }
+  .inicio .comunidad .containerRedes div {
+    position: relative;
+  }
+  .inicio .comunidad .containerRedes div:hover::after, .inicio .comunidad .containerRedes div:hover::before {
+    opacity: 100;
+  }
+  .inicio .comunidad .containerRedes div img {
+    width: 19.79vw;
+    height: 16.11vw;
+  }
+  .inicio .comunidad .containerRedes div::after {
+    content: "Descubrí\Anuestros\Aposteos";
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(40, 82, 75, 0.8);
+    white-space: pre;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 4.44vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    color: #F3EEE9;
+    font-size: 1.39vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  .inicio .comunidad .containerRedes div::before {
+    content: url("../img/flecha.svg");
+    color: #F3EEE9;
+    position: absolute;
+    left: 72%;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  .inicio .comunidad .containerRedes .posteosGeneral {
+    display: none;
+  }
+  .inicio .comunidad .containerRedes .imagen svg {
+    top: 0.42vw;
+    right: 1.04vw;
+    width: 1.39vw;
+    height: 1.39vw;
+  }
+  .nosotros {
+    padding: 5.56vw 8.33vw 7.01vw 8.33vw;
+    text-align: start;
+  }
+  .nosotros p {
+    font-size: 1.53vw;
+    line-height: 2.22vw;
+  }
+  .nosotros .nuestraFilosofia {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 83.33vw;
+    height: 12.22vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1.39vw;
+  }
+  .nosotros .nuestraFilosofia h1 {
+    font-size: 4.72vw;
+    line-height: 5.56vw;
+    width: 26.88vw;
+    height: 11.11vw;
+  }
+  .nosotros .nuestraFilosofia p {
+    width: 55.07vw;
+    height: 8.89vw;
+  }
+  .nosotros .nuestroObjetivo {
+    margin-top: 6.11vw;
+    gap: 1.39vw;
+    margin-bottom: 0;
+  }
+  .nosotros .nuestroObjetivo .div1 {
+    padding: 3.89vw 3.47vw;
+    width: 26.81vw;
+    height: 16.67vw;
+  }
+  .nosotros .nuestroObjetivo .div1 p {
+    width: 19.79vw;
+    height: 8.89vw;
+  }
+  .nosotros .nuestroObjetivo .div2 {
+    width: 26.81vw;
+    height: 16.67vw;
+  }
+  .nosotros .nuestroObjetivo .div2 h2 {
+    font-size: 2.78vw;
+    font-weight: 800;
+  }
+  .nosotros .nuestroObjetivo .div3 {
+    width: 26.81vw;
+    height: 16.67vw;
+  }
+  .nosotros .nosotrosImg {
+    height: 25.56vw;
+    width: 83.33vw;
+    margin-top: 5vw;
+  }
+  .nosotros .nosotrosImg div {
+    width: 65.46vw;
+    height: 25.56vw;
+  }
+  .nosotros .nosotrosImg div p {
+    padding: 3.89vw 10.76vw 3.89vw 3.61vw;
+  }
+  .nosotros .nosotrosImg img {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 24.31vw;
+    height: 24.31vw;
+    top: 50%;
+  }
+  .cannabis-medicinal p {
+    font-size: 1.53vw;
+    line-height: 2.22vw;
+  }
+  .cannabis-medicinal .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 26.11vw;
+    padding: 7.78vw 8.33vw 2.22vw 8.33vw;
+    background-image: url("../img/cannabis_fondo_desktop.jpg");
+  }
+  .cannabis-medicinal .banner h1 {
+    text-align: center;
+    width: 83.33vw;
+    height: 6.11vw;
+    font-size: 4.72vw;
+    line-height: 5.56vw;
+    margin-bottom: 3.33vw;
+  }
+  .cannabis-medicinal .banner p {
+    width: 47.99vw;
+    height: 6.67vw;
+    font-size: 1.53vw;
+    text-align: center;
+  }
+  .cannabis-medicinal .tituloHistoria {
+    margin: 5.56vw 8.33vw 3.89vw;
+  }
+  .cannabis-medicinal .tituloHistoria .titulo {
+    width: 21.18vw;
+    height: 17.78vw;
+    padding: 5vw 0.97vw;
+  }
+  .cannabis-medicinal .tituloHistoria .titulo h2 {
+    font-size: 2.78vw;
+    line-height: 3.33vw;
+  }
+  .cannabis-medicinal .tituloHistoria .texto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 2.22vw 7.08vw;
+    gap: 2.08vw;
+    width: 62.15vw;
+    height: 17.78vw;
+  }
+  .cannabis-medicinal .tituloHistoria .texto .inactivo {
+    display: inline;
+  }
+  .cannabis-medicinal .tituloHistoria .texto p {
+    width: auto;
+    height: auto;
+  }
+  .cannabis-medicinal .historia {
+    padding: 0 8.33vw;
+    gap: 2.08vw;
+  }
+  .cannabis-medicinal .productos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1.67vw;
+    margin: 3.89vw auto 5.56vw auto;
+    padding: 0;
+  }
+  .cannabis-medicinal .productos div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2.08vw;
+    width: auto;
+  }
+  .cannabis-medicinal .productos div img {
+    width: 13.89vw;
+    height: 13.89vw;
+  }
+  .cannabis-medicinal .productos div div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.74vw;
+    width: 26.81vw;
+  }
+  .cannabis-medicinal .productos div div h4 {
+    font-size: 1.88vw;
+    line-height: 2.22vw;
+  }
+  .cannabis-medicinal .productos div div p {
+    text-align: center;
+  }
+  .cannabis-medicinal .productos .invertido {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cannabis-medicinal .mensaje {
+    margin: 0 8.47vw 0;
+    padding: 2.78vw 7.08vw;
+  }
+  .cannabis-medicinal .mensaje h4 {
+    width: 68.96vw;
+    height: 11.6vw;
+    font-size: 2.08vw;
+    line-height: 3.89vw;
+    font-weight: 400;
+  }
+  .lineaProductos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 9.03vw 8.33vw 0 8.33vw;
+    gap: 8.4vw;
+  }
+  .lineaProductos .descripcion h1 {
+    font-size: 4.72vw;
+    line-height: 5.56vw;
+  }
+  .lineaProductos .descripcion p {
+    font-size: 2.78vw;
+    line-height: 3.89vw;
+    margin-top: 11.53vw;
+    margin-bottom: 1.39vw;
+    width: 55.07vw;
+  }
+  .lineaProductos .descripcion p br {
+    display: inline;
+  }
+  .lineaProductos .descripcion .textoJabones {
+    margin-bottom: 4.86vw;
+  }
+  .lineaProductos .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 0 0 0;
+    width: 19.79vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.39vw;
+  }
+  .lineaProductos .productos div {
+    gap: 0.9vw;
+    position: relative;
+    width: 100%;
+  }
+  .lineaProductos .productos div img {
+    width: 19.79vw;
+  }
+  .lineaProductos .productos div p {
+    font-size: 1.39vw;
+    line-height: 1.67vw;
+  }
+  .lineaProductos .productos div .inactivo {
+    display: none;
+  }
+  .lineaProductos .productos div a {
+    all: unset;
+    cursor: pointer;
+    width: 19.79vw;
+  }
+  .lineaProductos .productos div div {
+    position: relative;
+  }
+  .lineaProductos .productos div div::after {
+    content: "VER PRODUCTO";
+    font-size: 1.53vw;
+    font-weight: 700;
+    color: #F3EEE9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 21.69vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 82, 75, 0.8);
+    opacity: 0;
+    -webkit-transition: 150ms ease-out;
+    transition: 150ms ease-out;
+  }
+  .lineaProductos .productos div div:hover::after {
+    opacity: 1;
+  }
+  .popUpWhatsApp {
+    margin-bottom: 126px;
+    margin-top: 17px;
+    bottom: 0.76vw;
+    margin-right: 0.76vw;
+  }
+  .popUpWhatsApp .nav-bottom {
+    padding: 0.35vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp {
+    width: 18.75vw;
+    bottom: 5.9vw;
+    right: 0.83vw;
+    border-radius: 0.69vw;
+    -webkit-box-shadow: 0.14vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+            box-shadow: 0.14vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp p {
+    font-size: 0.83vw;
+    padding: 0.35vw 0 0px 0.76vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .closePopup {
+    width: 1.46vw;
+    height: 1.46vw;
+    -webkit-box-shadow: 0.07vw 0.07vw 0.14vw 0px rgba(68, 68, 68, 0.705);
+            box-shadow: 0.07vw 0.07vw 0.14vw 0px rgba(68, 68, 68, 0.705);
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .closePopup svg {
+    width: 1.53vw;
+    height: 1.53vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .logoWhatsApp {
+    border-radius: 0.49vw 0.49vw 0 0;
+    gap: 0.76vw;
+    padding: 0.63vw 2.01vw 0.63vw 0.97vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .content-whatsapp .logoWhatsApp p {
+    font-size: 0.83vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom {
+    border-radius: 0 0 0.49vw 0.49vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .whats-input[type="text"] {
+    width: 14.38vw;
+    height: 2.43vw;
+    margin: 0.35vw 0 0.83vw 0;
+    border-radius: 0.76vw;
+    font-size: 0.89vw;
+  }
+  .popUpWhatsApp .nav-bottom .popup-whatsapp .-bottom .send-msPopup {
+    width: 1.74vw;
+    height: 1.74vw;
+    margin-right: 0.14vw;
+    margin-left: 0.76vw;
+    margin-bottom: 0.35vw;
+    border: 0.21vw solid #444444;
+  }
+  .popUpWhatsApp .nav-bottom .whatsapp-button {
+    width: 3.19vw;
+    height: 3.19vw;
+    padding: 0.49vw;
+    -webkit-box-shadow: 0.07vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+            box-shadow: 0.07vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+  }
+  .popUpWhatsApp .nav-bottom .whatsapp-button .float {
+    font-size: 3.13vw;
+  }
+  .popUpWhatsApp .nav-bottom .whatsapp-button .float .my-float {
+    padding: 0.69vw;
+    font-size: 3.13vw;
+  }
+  .popUpWhatsApp .nav-bottom input.whats-input[type="text"] {
+    width: 14.38vw;
+    height: 2.08vw;
+    border-radius: 0.49vw;
+    font-size: 1.11vw;
+    padding: 0px 0px 0px 0.69vw;
+  }
+  .popUpWhatsApp .nav-bottom .icon-font-color--black {
+    color: #444444;
+    padding-left: 0.14vw;
+    font-size: 1.32vw;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+body p {
+  color: #0E301A;
+  text-align: center;
+}
+
+body p.parrafoTabs {
+  text-align: start;
+}
+
+body.inicioBody {
+  background-color: #f3eee9;
+}
+
+.desarrolladoPor div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1C4B45;
+}
+
+.desarrolladoPor div img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.desarrolladoPor div p {
+  font-size: 12px;
+  margin: 5px 0 !important;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=estilo.css.map */

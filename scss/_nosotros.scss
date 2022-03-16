@@ -1,0 +1,76 @@
+.nosotros{
+    @include flex-column;
+    align-items: center;
+    p{
+        text-align: start;
+        color: $verdeOscuro;
+        font-size: 4.17vw;
+        line-height: 6.67vw;
+    }
+    .nuestraFilosofia{
+        @include flex-column;
+        width: 91.11vw;
+        gap: 8.61vw;
+        margin-top: 11.11vw;
+        h1{
+            text-align: inherit;
+            color: $secundarioOscuro;
+            font-size: 9.17vw;
+            font-weight: 800;
+            line-height: 11.1vw;
+        }
+    }
+    .nuestroObjetivo{
+        @include flex-row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 11.67vw;
+        margin-bottom: 4.72vw;
+        gap: 8.61vw 0;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .div1{
+            background-color: $terciario;
+            width: 47.78vw;
+            padding: 8.89vw 4.44vw;
+        }
+        .div2{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 43.33vw;
+            h2{
+                color: $secundarioOscuro;
+                font-size: 6.39vw;
+                font-weight: 700;
+            }
+        }
+        .div3{
+            width: 90.83vw;
+            height: 33.33vw;
+        }
+    }
+    .nosotrosImg{
+        @include flex-column;
+        justify-content: flex-end;
+        position: relative;
+        width: 91.11vw;
+        height: 153.33vw;
+        img{
+            position: absolute;
+            width: 48.61vw;
+            height: 48.61vw;
+            right: 4.72vw;
+            top: 0;
+        }
+        div{
+            background: $terciario;
+            p{
+                padding: 26.39vw 4.44vw 17.78vw 4.44vw;
+            }
+        }
+    }
+}

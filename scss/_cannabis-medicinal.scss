@@ -1,0 +1,139 @@
+.cannabis-medicinal {
+    background-color: $blanco;
+
+    p {
+        font-size: 4.17vw;
+        line-height: 6.67vw;
+        text-align: start;
+    }
+
+    .banner {
+        width: 100%;
+        height: 77.78vw;
+        background-image: url("../img/cannabis_fondo_mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 7.5vw 4.44vw 6.67vw 4.44vw;
+
+        h1 {
+            color: $terciarioClaro;
+            font-size: 9.17vw;
+            line-height: 11.11vw;
+            font-weight: 800;
+            width: 57.78vw;
+            height: 36.67vw;
+            margin-bottom: 6.67vw;
+        }
+
+        p {
+            width: 90.83vw;
+            text-align: start;
+            color: $terciarioClaro;
+        }
+    }
+
+    .tituloHistoria {
+        @include flex-row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 13.33vw 0 8.61vw;
+
+        .titulo {
+            padding: 20vw 3.89vw;
+            width: 49.44vw;
+            height: 57.78vw;
+            margin: 0 auto;
+
+            h2 {
+                text-align: center;
+                color: $secundarioOscuro;
+                font-size: 6.39vw;
+                font-weight: 700;
+            }
+        }
+
+        .texto {
+            background: $terciarioClaro;
+            padding: 9.72vw 5.28vw 11.11vw 5.28vw;
+
+            p {
+                color: $verdeOscuro;
+                width: 38.89vw;
+                height: 38.06vw;
+                font-weight: 400;
+            }
+
+            .inactivo {
+                display: none
+            }
+        }
+    }
+
+    .historia {
+        @include flex-column;
+        gap: 6.94vw;
+        padding: 0 4.72vw;
+
+        p {
+            color: $verdeOscuro;
+        }
+    }
+
+    .productos {
+        @include flex-column;
+        align-items: center;
+        gap: 10.28vw;
+        padding: 0 4.44vw;
+        margin: 10.28vw 0px 11.11vw 0px;
+
+        div {
+            @include flex-row;
+            align-items: center;
+            width: 100%;
+            gap: 5.56vw;
+
+            img {
+                width: 27.78vw;
+                height: 27.78vw;
+            }
+
+            div {
+                @include flex-column;
+                align-items: flex-start;
+                width: 57.78vw;
+                gap: 4.44vw;
+
+                h4 {
+                    color: $verdeOscuro;
+                    font-size: 5.28vw;
+                    font-weight: 600;
+                }
+
+                p {
+                    color: $verdeOscuro;
+                }
+            }
+        }
+
+        .invertido {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .mensaje {
+        padding: 11.11vw 0 12.5vw;
+        margin: 0 4.44vw 0;
+        background: $terciarioClaro;
+
+        h4 {
+            color: $verdeOscuro;
+            text-align: center;
+            font-size: 5.28vw;
+            line-height: 6.67vw;
+            font-weight: 600;
+            width: 90vw;
+            height: 34.44vw;
+            margin: 0 auto;
+        }
+    }
+}

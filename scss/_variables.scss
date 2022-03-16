@@ -1,0 +1,26 @@
+$verdeOscuro: #0E301A;
+$verdeClaro: #49C13A;
+$secundarioOscuro: #285243;
+$secundarioClaro: #96AAA7;
+$terciario: #EBE3DA;
+$terciarioClaro: #F3EEE9;
+$terciarioOscuro1: #C3B09A;
+$terciarioOscuro2: #A38A6C;
+
+$blanco: #FFFFFF;
+$gris: #C4C4C4;
+$negro: #000000;
+
+$breakpoint-tablet: 744px;
+$breakpoint-desktop: 1440px;
+
+
+
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+}
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}

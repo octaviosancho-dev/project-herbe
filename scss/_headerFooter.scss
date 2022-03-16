@@ -1,0 +1,312 @@
+@media only screen and (max-width: 390px) {
+  // Header
+  .headerEstilos {
+    display: flex;
+    background-color: #f3eee9;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+    a {
+      width: 60px;
+      height: 60px;
+      img {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      margin: 0;
+      a {
+        margin: 10px;
+        text-decoration: none;
+        font-size: small;
+        color: #0e301a;
+      }
+      .pagActual {
+        font-weight: bold;
+      }
+    }
+  }
+
+  // Footer
+  .footerEstilos {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    color: #ebe3da;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 28px;
+    div {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      h3 {
+        font-size: 13px;
+        font-weight: lighter;
+        margin: 15px;
+      }
+      div {
+        display: flex;
+        flex-flow: column nowrap;
+        a {
+          margin-right: 20px;
+        }
+        div {
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: flex-start;
+          margin-left: 15px;
+          h4 {
+            font-size: 13px;
+            font-weight: 400;
+            padding: 5px;
+            margin: 0;
+          }
+          a {
+            text-decoration: none;
+            color: #ebe3da;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 1439px) {
+  // Header
+  .headerEstilos {
+    display: flex;
+    background-color: #f3eee9;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+    a {
+      width: 49px;
+      height: 49px;
+      img {
+        width: 49px;
+        height: 49px;
+        position: relative;
+        left: 32px;
+        transition: 150ms;
+        &:hover {
+          width: 51px;
+          height: 51px;
+        }
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      right: 32px;
+      width: 200px;
+      margin: 0;
+      a {
+        margin: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #0e301a;
+        transition: 150ms;
+        &:hover {
+          font-weight: 700;
+        }
+      }
+      .pagActual {
+        font-weight: bold;
+        &:hover {
+          font-size: 17px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .footerEstilos {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    color: #ebe3da;
+    width: 100%;
+    position: absolute;
+    bottom: 28px;
+    padding-bottom: 175px;
+    padding-top: 25px;
+    div {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      h3 {
+        font-size: 13px;
+        font-weight: lighter;
+        margin: 20px 0 15px 36px;
+      }
+      div {
+        display: flex;
+        flex-flow: column nowrap;
+        a {
+          margin-right: 20px;
+        }
+        div {
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: flex-start;
+          margin-left: 36px;
+          h4 {
+            font-size: 13px;
+            font-weight: 400;
+            padding: 5px;
+            margin: 0;
+          }
+          a {
+            text-decoration: none;
+            color: #ebe3da;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  // Header
+  .headerEstilos {
+    display: flex;
+    background-color: #f3eee9;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.123);
+    img {
+      width: 49px;
+      height: 49px;
+      margin: 0px;
+      position: relative;
+      top: 0px;
+      left: 119px;
+      transition: 150ms;
+      &:hover {
+        width: 55px;
+        height: 55px;
+      }
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      right: 100px;
+      width: 320px;
+      margin: 0;
+      a {
+        margin: 10px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #0e301a;
+        transition: 150ms;
+        &:hover {
+          font-weight: 700;
+        }
+      }
+      .pagActual {
+        font-weight: bold;
+        transition: 150ms;
+        &:hover {
+          font-size: 23px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .footerEstilos {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url(../img/footer-fondo-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 256px;
+    color: #ebe3da;
+    position: absolute;
+    bottom: 28px;
+    padding-bottom: 175px;
+    width: 100%;
+    div {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      h3 {
+        font-size: 21px;
+        font-weight: 500;
+        margin: 53px 0 20px 120px;
+      }
+      div {
+        display: flex;
+        flex-flow: column nowrap;
+        a {
+          margin-right: 120px;
+          svg {
+            width: 31px;
+            height: 31px;
+          }
+          .facebookIconoWidth {
+            width: 32px;
+            height: 32px;
+          }
+        }
+        div {
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: flex-start;
+          margin-left: 120px;
+          padding: 7px 0;
+          svg {
+            width: 20px;
+            height: 20px;
+            margin: 0 10px 0 5px;
+          }
+          h4 {
+            font-size: 20px;
+            font-weight: 300;
+            margin: 0;
+          }
+          a {
+            text-decoration: none;
+            color: #ebe3da;
+          }
+        }
+      }
+    }
+  }
+}

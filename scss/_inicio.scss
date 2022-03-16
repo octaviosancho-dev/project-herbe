@@ -1,0 +1,485 @@
+.inicio {
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 !important;
+  }
+
+  .carousel {
+    height: 128.89vw;
+
+    .carousel-indicators {
+      gap: 5vw;
+
+      button {
+        background: transparent;
+        width: 3.33vw;
+        height: 3.33vw;
+        border-radius: 50%;
+        border: unset;
+        background-color: $blanco;
+        opacity: 50%;
+
+        &.active {
+          background-color: $blanco;
+          opacity: 1;
+        }
+      }
+    }
+
+    .carruselNext {
+      position: absolute;
+      right: 6.57vw;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      display: none;
+    }
+
+    .carruselPrev {
+      position: absolute;
+      left: 6.57vw;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      display: none;
+    }
+
+    .carousel-inner {
+      h1 {
+        font-size: 10.83vw;
+        font-weight: 800;
+      }
+
+      .carousel-item {
+        transition: opacity 1s ease-in-out;
+        height: 128.89vw;
+      }
+
+      .button {
+        font-size: 3.61vw;
+        font-weight: 500;
+        line-height: 0;
+        color: $verdeOscuro;
+        background: $blanco;
+        padding: 6.67vw 9.17vw;
+        margin-top: 13.89vw;
+        margin-bottom: 8.33vw;
+        box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.2);
+        border-radius: 13.89vw;
+      }
+
+      .w-100 {
+        width: auto !important;
+        height: 128.89vw;
+        overflow: hidden;
+        position: absolute;
+      }
+
+      .carrusel1 {
+        @include flex-column;
+        align-items: center;
+
+        .w-100 {
+          left: -15.83vw;
+        }
+      }
+
+      .carrusel2 {
+        @include flex-column;
+        align-items: center;
+
+        .w-100 {
+          width: auto !important;
+          right: -4.44vw;
+          bottom: 0;
+        }
+
+        .carousel-caption {
+          left: 50%;
+          transform: translate(-50%);
+          width: 77.22vw;
+          bottom: 77.78vw;
+        }
+      }
+
+      .carrusel3 {
+        @include flex-column;
+        align-items: center;
+
+        .w-100 {
+          width: auto !important;
+          height: 129vw;
+          bottom: 0;
+          right: -61.11vw;
+        }
+
+        .carousel-caption {
+          display: flex !important;
+          flex-direction: column;
+          align-items: center;
+          background: rgba(150, 170, 167, 0.5);
+          backdrop-filter: blur(8px);
+          gap: 11.67vw;
+          width: 91.11vw;
+          height: 97.78vw;
+          padding: 11.11vw;
+          left: 0;
+          right: 0;
+          bottom: 18.89vw;
+          margin-left: auto;
+          margin-right: auto;
+
+          h2 {
+            font-size: 6.39vw;
+            font-weight: 700;
+          }
+
+          .textoCarrusel {
+            @include flex-column;
+            gap: 5.56vw;
+            width: 51.94vw;
+            height: 47.78vw;
+
+            p {
+              text-align: start;
+              color: $blanco;
+              font-size: 4.17vw;
+              line-height: 6.67vw;
+              font-weight: 500;
+
+              .numero {
+                color: $blanco;
+                font-size: 6.39vw;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .insignias {
+    @include flex-column;
+    align-items: center;
+    background: $terciarioClaro;
+    padding: 6.67vw 4.44vw;
+    gap: 5.28vw;
+
+    .icons {
+      @include flex-row;
+      gap: 4.44vw;
+
+      svg {
+        width: 19.44vw;
+        height: 19.44vw;
+      }
+    }
+
+    .text {
+      width: 88.6vw;
+
+      p {
+        font-weight: 400;
+        font-size: 4.17vw;
+        line-height: 6.67vw
+      }
+    }
+  }
+
+  .nuestrasLineas {
+    @include flex-column;
+    gap: 9.44vw;
+    padding: 8.06vw 4.44vw 13.33vw 4.44vw;
+    background-color: white;
+
+    h2 {
+      flex-flow: column;
+      color: $verdeOscuro;
+      align-self: center;
+      font-size: 5.28vw;
+      font-weight: 600;
+    }
+
+    .containerProductos {
+      @include flex-column;
+      gap: 2.22vw;
+
+      div {
+        @include flex-row;
+        transition: 0.5s ease-in-out;
+        align-items: center;
+        gap: 4.44vw;
+        animation-name: grow;
+        animation-duration: 1s;
+
+        img {
+          width: 33.33vw;
+          height: 33.33vw;
+          border-radius: 50%;
+          filter: drop-shadow(0px 5.56vw 13.89vw rgba(40, 82, 75, 0.15));
+        }
+
+        h3 {
+          color: $secundarioOscuro;
+          font-size: 6.39vw;
+          font-weight: 700;
+        }
+      }
+
+      :nth-child(2) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  .testimonios {
+    @include flex-column;
+    align-items: center;
+    background-image: url("../img/fondo_testimonios_mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 15.56vw 8.33vw 0;
+    background-color: $blanco;
+
+    .carousel {
+      width: 91.11vw;
+      height: 88.89vw;
+      overflow: hidden;
+      box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+
+      .carousel-inner {
+        background: $blanco;
+
+        h3 {
+          color: $verdeOscuro;
+          font-size: 5.28vw;
+          font-weight: 600;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 8.06vw;
+          margin: 0 auto !important;
+          width: fit-content;
+        }
+
+        .carousel-item {
+          transition: 1s ease-in-out;
+          width: 88.89vw;
+          height: 88.89vw;
+          padding: 8.06vw;
+          top: 16.36vw;
+          margin-left: 1.03vw;
+
+          div {
+            @include flex-column;
+            align-items: center;
+            justify-content: space-between;
+            height: 47.78vw;
+            p {
+              font-size: 4.17vw;
+              line-height: 6.67vw;
+            }
+          }
+
+          .carousel-caption {
+            @include flex-column;
+          }
+        }
+      }
+
+      .carousel-indicators {
+        gap: 2.22vw;
+        margin-bottom: 6.67vw;
+
+        button {
+          border: 0.56vw solid $verdeOscuro;
+
+          &.active {
+            background: $verdeOscuro;
+            border: 0.56vw solid $verdeOscuro;
+          }
+        }
+      }
+    }
+
+    h2 {
+      text-align: center;
+      color: $terciarioClaro;
+      width: 88.89vw;
+      font-size: 6.39vw;
+      font-weight: 700;
+      line-height: 8.33vw;
+    }
+
+    .h2Verde {
+      color: $secundarioOscuro;
+      margin: 34.44vw 0 !important;
+    }
+
+    .contenedor {
+      width: 100vw;
+      background: #f2f5f6;
+
+      .textoTestimonios {
+        box-shadow: 0px 1.11vw 4.44vw rgba(40, 82, 75, 0.1);
+        background-image: url("../img/fondo_texto.png");
+        display: flex;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 91.11vw;
+        height: 71.11vw;
+      }
+    }
+  }
+
+  .comoTrabajamos {
+    @include flex-column;
+    align-items: center;
+    padding: 11.94vw 0 15.28vw;
+    gap: 6.94vw;
+    background-image: url("../img/fondo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: $blanco;
+
+    h3 {
+      font-size: 5.28vw;
+      font-weight: 600;
+      color: $secundarioOscuro;
+    }
+
+    .containerIconos {
+      @include flex-column;
+      gap: 5vw;
+
+      div {
+        @include flex-column;
+        align-items: center;
+        gap: 2.78vw;
+
+        img {
+          width: 5vw;
+          height: 5vw;
+        }
+
+        p {
+          font-size: 4.17vw;
+          line-height: 6.67vw;
+          font-weight: 400;
+          color: $secundarioOscuro;
+        }
+      }
+    }
+  }
+
+  .comunidad {
+    @include flex-column;
+    background: $terciarioClaro;
+    align-items: center;
+    padding: 7.5vw 3.33vw 0 3.33vw;
+    width: 100%;
+    gap: 8.61vw;
+    overflow: hidden;
+
+    h3 {
+      text-align: center;
+      color: $verdeOscuro;
+      font-size: 4.17vw;
+      font-weight: 700;
+      width: 66.11vw;
+    }
+
+    .containerRedes {
+      @include flex-row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.11vw;
+      width: 94.44vw;
+
+      a.posteosFacebook,
+      a.posteosInstagram {
+
+        .posteosInstagram,
+        .posteosFacebook {
+          @include flex-row;
+          align-items: center;
+          gap: 2.22vw;
+          background: $secundarioOscuro;
+          padding: 8.06vw 6.67vw 8.06vw 3.89vw;
+          width: 46.11vw;
+          height: 30vw;
+
+          p {
+            width: 33.33vw;
+            font-size: 3.33vw;
+            line-height: 4.44vw;
+            color: $terciarioClaro;
+          }
+        }
+      }
+
+      .posteosGeneral {
+        display: none;
+        @include flex-row;
+        align-items: center;
+        gap: 2.22vw;
+        background: $secundarioOscuro;
+        padding: 8.06vw 6.67vw 8.06vw 3.89vw;
+        width: 46.11vw;
+        height: 30vw;
+
+        p {
+          width: 28.89vw;
+          font-size: 3.33vw;
+          line-height: 4.44vw;
+          color: $terciarioClaro;
+        }
+      }
+
+      img {
+        width: 46.11vw;
+        height: 30vw;
+      }
+
+      .imagen {
+        position: relative;
+
+        svg {
+          position: absolute;
+          right: 0.83vw;
+          top: 0.83vw;
+        }
+      }
+
+      .inactivo {
+        display: none;
+      }
+      .reversa{
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+@keyframes grow {
+  from {
+    opacity: 30%;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 100;
+    transform: scale(1);
+  }
+}

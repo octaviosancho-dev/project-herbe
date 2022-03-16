@@ -1,0 +1,1364 @@
+@media only screen and (min-width: $breakpoint-tablet) {
+  .inicio {
+    .carousel {
+      height: 62.37vw;
+
+      .carousel-indicators {
+        gap: 2.42vw;
+
+        button {
+          width: 1.61vw;
+          height: 1.61vw;
+        }
+      }
+
+      .carouselNext {
+        right: 3.23vw;
+      }
+
+      .carruselPrev {
+        left: 3.23vw;
+      }
+
+      .carousel-inner {
+        h1 {
+          text-align: start;
+          font-size: 5.24vw;
+        }
+
+        .carousel-item {
+          height: 62.37vw;
+        }
+
+        .button {
+          font-size: 1.75vw;
+          padding: 2.9vw 4.44vw;
+          border-radius: 6.72vw;
+          margin-top: 6.72vw;
+          margin-bottom: 4.03vw;
+        }
+
+        .w-100 {
+          width: auto !important;
+          height: 62.37vw;
+        }
+
+        .carousel-caption {
+          right: unset;
+          left: 6%;
+          bottom: 6.99vw;
+        }
+
+        .carrusel1 {
+          .w-100 {
+            width: 100% !important;
+            height: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .carrusel2 {
+          align-items: center;
+
+          .w-100 {
+            width: 100% !important;
+            height: auto;
+            right: 0;
+            bottom: -6.05vw;
+          }
+
+          .carousel-caption {
+            width: 37.37vw;
+            bottom: 24.19vw;
+            left: 5.11vw;
+            transform: unset;
+
+            h1 {
+              text-align: center;
+            }
+          }
+        }
+
+        .carrusel3 {
+          .w-100 {
+            width: 100% !important;
+            height: auto;
+            right: 0;
+            bottom: -6.05vw;
+          }
+
+          .carousel-caption {
+            flex-direction: row;
+            justify-content: center;
+            width: 91.4vw;
+            height: 45.16vw;
+            padding: 5.38vw 7.8vw 4.44vw 7.8vw;
+            gap: 14.92vw;
+            bottom: 9.14vw;
+
+            h2 {
+              text-align: start;
+              font-size: 4.44vw;
+              font-weight: 800;
+            }
+
+            .textoCarrusel {
+              justify-content: center;
+              width: 65.19vw;
+              height: 34.41vw;
+              gap: 3.36vw;
+
+              p {
+                font-size: 3.09vw;
+                font-weight: 500;
+                line-height: 4.3vw;
+
+                .numero {
+                  font-size: 4.44vw;
+                  line-height: 5.38vw;
+                  font-weight: 800;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .insignias {
+      flex-direction: row-reverse;
+      justify-content: center;
+      padding: 9.27vw 4.44vw;
+      gap: 3.23vw;
+
+      .icons {
+        gap: 2.15vw;
+
+        svg {
+          width: 9.41vw;
+          height: 9.41vw;
+        }
+      }
+
+      .text {
+        width: 42.61vw;
+
+        p {
+          font-size: 2.22vw;
+          line-height: 3.23vw;
+        }
+      }
+    }
+
+    .nuestrasLineas {
+      padding: 9.81vw;
+      gap: 5.65vw;
+
+      h2 {
+        font-size: 2.55vw;
+        font-weight: 800;
+      }
+
+      .containerProductos {
+        gap: 1.08vw;
+
+        div {
+          gap: 5.38vw;
+
+          img {
+            width: 26.88vw;
+            height: 26.88vw;
+            filter: drop-shadow(0px 2.69vw 6.72vw rgba(40, 82, 75, 0.15));
+          }
+
+          h3 {
+            font-size: 4.44vw;
+          }
+        }
+      }
+    }
+
+    .testimonios {
+      background-image: url("../img/fondo_testimonios_tablet.jpg");
+      flex-direction: row;
+      justify-content: center;
+      gap: 3.23vw;
+      padding: 9.68vw 4.03vw;
+
+      .carousel {
+        width: 44.09vw;
+        height: 41.94vw;
+        box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+
+        .carousel-inner {
+          h3 {
+            font-size: 2.55vw;
+            top: 3.9vw;
+          }
+
+          .carousel-item {
+            width: 43.01vw;
+            height: 43.01vw;
+            padding: 3.9vw;
+            top: 7.93vw;
+            margin-left: 0.54vw;
+
+            div {
+              gap: 3.36vw;
+              height: 22.31vw;
+
+              p {
+                font-size: 2.02vw;
+                line-height: 3.23vw;
+              }
+            }
+          }
+        }
+
+        .carousel-indicators {
+          gap: 1.08vw;
+          margin-bottom: 3.23vw;
+
+          button {
+            border: 0.27vw solid;
+
+            &.active {
+              border: 0.27vw solid;
+            }
+          }
+        }
+      }
+
+      h2 {
+        width: 43.01vw;
+        font-size: 4.44vw;
+        font-weight: 800;
+        line-height: 5.38vw;
+      }
+
+      .h2Verde {
+        display: none;
+        margin: 16.67vw 0 !important;
+      }
+
+      .contenedor {
+        all: unset;
+        box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+
+        .textoTestimonios {
+          box-shadow: 0px 0.54vw 2.15vw rgba(40, 82, 75, 0.1);
+          background-image: url("../img/fondo_texto_tablet.png");
+          width: 44.09vw;
+          height: 41.94vw;
+        }
+      }
+    }
+
+    .comoTrabajamos {
+      background-image: unset;
+      background-color: $blanco;
+      padding: 13.44vw 12.23vw;
+      gap: 7.66vw;
+
+      h3 {
+        font-size: 2.95vw;
+        font-weight: 700;
+      }
+
+      .containerIconos {
+        flex-direction: row;
+        gap: 1.08;
+
+        div {
+          width: 14.25vw;
+          gap: 2.02vw;
+
+          img {
+            width: 3.23vw;
+            height: 3.23vw;
+          }
+
+          p {
+            font-size: 1.82vw;
+            line-height: 3.23vw;
+          }
+        }
+      }
+    }
+
+    .comunidad {
+      margin: unset;
+      align-items: center;
+      gap: 4.84vw;
+      padding: 3.63vw 1.61vw 0 1.61vw;
+
+      h3 {
+        font-size: 2.55vw;
+        font-weight: 600;
+        width: auto;
+      }
+
+      .containerRedes {
+        width: auto;
+        gap: 0.54vw;
+
+        .posteosInstagram,
+        .posteosFacebook {
+          display: none;
+          width: 17.34vw;
+          height: 13.98vw;
+          gap: 1.08vw;
+          padding: 3.9vw 3.23vw 3.9vw 1.88vw;
+
+          p {
+            width: 16.13vw;
+            font-size: 1.61vw;
+            line-height: 2.15vw;
+          }
+        }
+
+        .inactivo {
+          display: block;
+        }
+
+        .posteosGeneral {
+          display: flex;
+          width: 17.34vw;
+          height: 13.98vw;
+          gap: 1.08vw;
+          padding: 3.9vw 3.23vw 3.9vw 1.88vw;
+
+          p {
+            width: 13.98vw;
+            font-size: 1.61vw;
+            line-height: 2.15vw;
+          }
+
+          svg {
+            width: 2.42vw;
+            right: 0.4vw;
+            top: 0.4vw;
+          }
+        }
+
+        img {
+          width: 17.34vw;
+          height: 13.98vw;
+        }
+      }
+    }
+  }
+
+  .nosotros {
+    padding: 7.53vw 4.3vw 0 4.3vw;
+
+    p {
+      font-size: 2.02vw;
+      line-height: 3.23vw;
+    }
+
+    .nuestraFilosofia {
+      width: 91.4vw;
+      height: 24.73vw;
+      margin: 0;
+      gap: 4.17vw;
+
+      h1 {
+        width: 21.1vw;
+        height: 10.75vw;
+        font-size: 4.44vw;
+        line-height: 5.38vw;
+      }
+
+      p {
+        width: 91.4vw;
+        height: 9.81vw;
+      }
+    }
+
+    .nuestroObjetivo {
+      flex-wrap: nowrap;
+      align-items: center;
+      margin-top: 6.45vw;
+      margin-bottom: 7.53vw;
+
+      .div1 {
+        width: 28.36vw;
+        height: 27.96vw;
+        padding: 4.17vw 4.7vw;
+      }
+
+      .div2 {
+        width: 26.88vw;
+
+        h2 {
+          font-size: 3.09vw;
+          line-height: 4.3vw;
+        }
+      }
+
+      .div3 {
+        width: 36.16vw;
+        height: 27.96vw;
+      }
+    }
+
+    .nosotrosImg {
+      width: 91.4vw;
+      height: auto;
+
+      img {
+        top: 46%;
+        transform: translateY(-44%);
+        width: 32.53vw;
+        height: 32.53vw;
+        right: 0;
+      }
+
+      div {
+        width: 83.47vw;
+        height: 45.16vw;
+
+        p {
+          padding: 6.32vw 31.45vw 6.32vw 4.84vw;
+        }
+      }
+    }
+  }
+
+  .cannabis-medicinal {
+    p {
+      font-size: 2.02vw;
+      line-height: 3.23vw;
+    }
+
+    .banner {
+      height: auto;
+      padding: 10.75vw 27.96vw 3.23vw 12.23vw;
+      background-image: url("../img/cannabis_fondo_tablet.jpg");
+
+      h1 {
+        width: 50vw;
+        height: 11.29vw;
+        font-size: 4.44vw;
+        line-height: 5.38vw;
+        margin-bottom: 2.55vw;
+
+        br {
+          display: none;
+        }
+      }
+
+      p {
+        width: 59.81vw;
+        height: 9.81vw;
+      }
+    }
+
+    .tituloHistoria {
+      margin: 5.38vw 4.3vw 4.17vw;
+      justify-content: center;
+
+      .titulo {
+        width: 31.59vw;
+        height: 27.96vw;
+        padding: 9.68vw 1.88vw;
+        margin: 0 0 0 auto;
+
+        h2 {
+          font-size: 3.09vw;
+        }
+      }
+
+      .texto {
+        @include flex-column;
+        padding: 3.09vw 7.8vw;
+        gap: 4.03vw;
+        width: 59.81vw;
+        height: 32.26vw;
+
+        .inactivo {
+          display: inline;
+        }
+
+        p {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+
+    .historia {
+      padding: 0 4.3vw;
+      gap: 4.03vw;
+
+      .inactivo {
+        display: none;
+      }
+    }
+
+    .productos {
+      gap: 5.38vw;
+      padding: 0 16.13vw;
+      margin: 6.45vw 0 12.9vw;
+
+      div {
+        gap: 2.69vw;
+
+        img {
+          width: 20.43vw;
+          height: 20.43vw;
+        }
+
+        div {
+          width: 44.62vw;
+          gap: 0.54vw;
+
+          h4 {
+            font-size: 2.55vw;
+          }
+        }
+      }
+    }
+
+    .mensaje {
+      padding: 5.39vw 0 6.05vw;
+      margin: 0 4.3vw 12.9vw;
+
+      h4 {
+        width: 74.54vw;
+        height: 16.67vw;
+        font-size: 3.09vw;
+        line-height: 4.3vw;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .lineaProductos {
+    padding: 9.68vw 4.03vw 5.24vw 4.03vw;
+    gap: 7.53vw;
+
+    .descripcion {
+      gap: 8.6vw;
+
+      h1 {
+        font-size: 4.44vw;
+        line-height: 5.38vw;
+      }
+
+      p {
+        font-size: 3.09vw;
+        line-height: 4.3vw;
+        font-weight: 500;
+        margin-top: 8.6vw;
+      }
+    }
+
+    .productos {
+      justify-content: center;
+      gap: 3.23vw;
+      width: 28.36vw;
+
+      div {
+        align-items: center;
+        gap: 3.06vw;
+        width: 28.36vw;
+
+        img {
+          width: 28.36vw;
+        }
+
+        p {
+          font-size: 2.02vw;
+          line-height: 3.23vw;
+          align-self: flex-start;
+        }
+
+        .inactivo {
+          padding: 1.61vw 4.3vw;
+          margin-top: 2.69vw;
+
+          button {
+            font-size: 1.75vw;
+            line-height: 2.15vw;
+          }
+        }
+      }
+    }
+  }
+  .popUpWhatsApp{
+  margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: $breakpoint-desktop) {
+  .inicio {
+    .carousel {
+      height: 45vw;
+
+      .carousel-indicators {
+        margin-bottom: 3.33vw;
+        gap: 1.25vw;
+
+        button {
+          width: 0.83vw;
+          height: 0.83vw;
+        }
+      }
+
+      .carruselNext {
+        right: 1.67vw;
+        display: block;
+      }
+
+      .carruselPrev {
+        left: 1.67vw;
+        display: block;
+      }
+
+      .carousel-inner {
+        h1 {
+          font-size: 4.72vw;
+          font-weight: 800;
+        }
+
+        .button {
+          font-size: 1.11vw;
+          padding: 1.67vw 2.29vw;
+          margin-top: 3.47vw;
+          margin-bottom: 2.08vw;
+          box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.2);
+          border-radius: 3.47vw;
+        }
+
+        .w-100 {
+          height: 45vw;
+        }
+
+        .carousel-item {
+          height: 45vw;
+        }
+
+        .carousel-caption {
+          bottom: 6.94vw;
+          left: 13%;
+        }
+
+        .carrusel1 {
+          .w-100 {
+            width: 100% !important;
+            height: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .carrusel2 {
+          .w-100 {
+            bottom: -6.6vw;
+          }
+
+          .carousel-caption {
+            width: 34.72vw;
+            bottom: 15.83vw;
+            left: 8.06vw;
+
+            h1 {
+              text-align: start;
+            }
+          }
+        }
+
+        .carrusel3 {
+          .w-100 {
+            bottom: -6.6vw;
+          }
+
+          .carousel-caption {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 83.33vw;
+            height: 33.33vw;
+            padding: 3.96vw 6.18vw 3.82vw 8.26vw;
+            bottom: 6.94vw;
+            gap: 7.71vw;
+
+            h2 {
+              text-align: start;
+              font-size: 4.72vw;
+              width: 26.81vw;
+              font-weight: bolder;
+            }
+
+            .textoCarrusel {
+              width: 34.38vw;
+              height: auto;
+              justify-content: center;
+              gap: 2.08vw;
+
+              p {
+                font-size: 2.08vw;
+                line-height: 3.89vw;
+
+                .numero {
+                  font-size: 2.08vw;
+                  font-weight: 700;
+                  line-height: 3.89vw;
+                }
+
+                b {
+                  font-size: 2.08vw;
+                  font-weight: 700;
+                  line-height: 3.89vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .insignias {
+      padding: 3.89vw 8.33vw;
+      gap: 7.36vw;
+
+      .icons {
+        gap: 2.01vw;
+
+        svg {
+          width: 7.22vw;
+          height: 7.22vw;
+        }
+      }
+
+      .text {
+        width: 37.69vw;
+
+        p {
+          font-size: 1.53vw;
+          line-height: 2.22vw;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .nuestrasLineas {
+      align-items: center;
+      padding: 4.38vw;
+      gap: 6.67vw;
+
+      h2 {
+        font-size: 1.88vw;
+      }
+
+      .containerProductos {
+        @include flex-row;
+        gap: 11.11vw;
+
+        div {
+          animation-name: unset;
+          flex-direction: column;
+          gap: 2.78vw;
+
+          h3 {
+            font-size: 1.88vw;
+          }
+
+          img {
+            width: 17.36vw;
+            height: 17.36vw;
+            transition: 450ms ease-in-out;
+            filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+
+            &:hover {
+              filter: drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.2)) drop-shadow(0px 1.39vw 3.47vw rgba(40, 82, 75, 0.15));
+              transform: translateY(-0.69vw);
+            }
+          }
+        }
+
+        :nth-child(2) {
+          flex-direction: column;
+        }
+      }
+    }
+
+    .testimonios {
+      background-image: url("../img/fondo_testimonios_desktop.jpg");
+      gap: 1.67vw;
+      padding: 5vw 2.08vw;
+
+      h2 {
+        font-size: 2.78vw;
+        line-height: 3.33vw;
+      }
+
+      .carousel {
+        width: 40.97vw;
+        height: 24.44vw;
+        box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+
+        .carousel-indicators {
+          gap: 0.56vw;
+          margin-bottom: 1.11vw;
+
+          button {
+            border: 0.14vw solid $verdeOscuro;
+
+            &.active {
+              border: 0.14vw solid $verdeOscuro;
+            }
+          }
+        }
+
+        h2 {
+          width: 25.79vw;
+          font-size: 2.29vw;
+          line-height: 2.78vw;
+        }
+
+        .carousel-inner {
+          h3 {
+            font-size: 1.88vw;
+            margin-bottom: 1.11vw;
+            top: 2.01vw;
+          }
+
+          .carousel-item {
+            width: 100%;
+            height: 24.44vw;
+            padding: 2.71vw 3.33vw;
+            top: 4.1vw;
+            margin-left: 0;
+
+            div {
+              gap: 1.6vw;
+              height: 13.54vw;
+
+              p {
+                font-size: 1.53vw;
+                font-weight: 400;
+                line-height: 2.22vw;
+              }
+            }
+          }
+        }
+      }
+
+      .contenedor {
+        box-shadow: 0px 0.28vw 1.11vw rgba(40, 82, 75, 0.1);
+
+        .textoTestimonios {
+          background-image: url("../img/fondo_texto_desktop.png");
+          width: 40.97vw;
+          height: 24.44vw;
+        }
+      }
+    }
+
+    .comoTrabajamos {
+      padding: 12.01vw 6.32vw 12.5vw 6.32vw;
+      gap: 3.96vw;
+
+      h3 {
+        font-size: 1.88vw;
+        font-weight: 600;
+      }
+
+      .containerIconos {
+        flex-direction: row;
+        gap: 1.11vw;
+
+        div {
+          width: 11.94vw;
+          gap: 1.32vw;
+
+          img {
+            width: 2.43vw;
+            height: 2.43vw;
+          }
+
+          p {
+            font-size: 1.39vw;
+            line-height: 1.67vw;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .comunidad {
+      gap: 2.01vw;
+      padding: 2.71vw 0.83vw 0 0.83vw;
+
+      h3 {
+        color: #354044;
+        font-size: 1.88vw;
+      }
+
+      .containerRedes {
+        flex-wrap: nowrap;
+        gap: 0.28vw;
+
+        div {
+          &:hover {
+
+            &::after,
+            &::before {
+              opacity: 100;
+            }
+          }
+
+          position: relative;
+
+          img {
+            width: 19.79vw;
+            height: 16.11vw;
+          }
+
+          &::after {
+            content: "Descubrí\Anuestros\Aposteos";
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background: rgba(40, 82, 75, 0.8);
+            white-space: pre;
+            display: flex;
+            padding-left: 4.44vw;
+            align-items: center;
+            justify-content: start;
+            color: $terciarioClaro;
+            font-size: 1.39vw;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: 0.4s ease-in-out;
+          }
+
+          &::before {
+            content: url("../img/flecha.svg");
+            color: $terciarioClaro;
+            position: absolute;
+            left: 72%;
+            top: 50%;
+            z-index: 1;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: 0.4s ease-in-out;
+          }
+        }
+
+        .posteosGeneral {
+          display: none;
+        }
+
+        .imagen {
+          svg {
+            top: 0.42vw;
+            right: 1.04vw;
+            width: 1.39vw;
+            height: 1.39vw;
+          }
+        }
+      }
+    }
+  }
+
+  .nosotros {
+    padding: 5.56vw 8.33vw 7.01vw 8.33vw;
+    text-align: start;
+
+    p {
+      font-size: 1.53vw;
+      line-height: 2.22vw;
+    }
+
+    .nuestraFilosofia {
+      align-items: center;
+      width: 83.33vw;
+      height: 12.22vw;
+      flex-direction: row;
+      gap: 1.39vw;
+
+      h1 {
+        font-size: 4.72vw;
+        line-height: 5.56vw;
+        width: 26.88vw;
+        height: 11.11vw;
+      }
+
+      p {
+        width: 55.07vw;
+        height: 8.89vw;
+      }
+    }
+
+    .nuestroObjetivo {
+      margin-top: 6.11vw;
+      gap: 1.39vw;
+      margin-bottom: 0;
+
+      .div1 {
+        padding: 3.89vw 3.47vw;
+        width: 26.81vw;
+        height: 16.67vw;
+
+        p {
+          width: 19.79vw;
+          height: 8.89vw;
+        }
+      }
+
+      .div2 {
+        width: 26.81vw;
+        height: 16.67vw;
+
+        h2 {
+          font-size: 2.78vw;
+          font-weight: 800;
+        }
+      }
+
+      .div3 {
+        width: 26.81vw;
+        height: 16.67vw;
+      }
+    }
+
+    .nosotrosImg {
+      height: 25.56vw;
+      width: 83.33vw;
+      margin-top: 5vw;
+
+      div {
+        width: 65.46vw;
+        height: 25.56vw;
+
+        p {
+          padding: 3.89vw 10.76vw 3.89vw 3.61vw;
+        }
+      }
+
+      img {
+        transform: translateY(-50%);
+        width: 24.31vw;
+        height: 24.31vw;
+        top: 50%;
+      }
+    }
+  }
+
+  .cannabis-medicinal {
+    p {
+      font-size: 1.53vw;
+      line-height: 2.22vw;
+    }
+
+    .banner {
+      @include flex-column;
+      align-items: center;
+      height: 26.11vw;
+      padding: 7.78vw 8.33vw 2.22vw 8.33vw;
+      background-image: url("../img/cannabis_fondo_desktop.jpg");
+
+      h1 {
+        text-align: center;
+        width: 83.33vw;
+        height: 6.11vw;
+        font-size: 4.72vw;
+        line-height: 5.56vw;
+        margin-bottom: 3.33vw;
+      }
+
+      p {
+        width: 47.99vw;
+        height: 6.67vw;
+        font-size: 1.53vw;
+        text-align: center;
+      }
+    }
+
+    .tituloHistoria {
+      margin: 5.56vw 8.33vw 3.89vw;
+
+      .titulo {
+        width: 21.18vw;
+        height: 17.78vw;
+        padding: 5vw 0.97vw;
+
+        h2 {
+          font-size: 2.78vw;
+          line-height: 3.33vw;
+        }
+      }
+
+      .texto {
+        justify-content: center;
+        padding: 2.22vw 7.08vw;
+        gap: 2.08vw;
+        width: 62.15vw;
+        height: 17.78vw;
+
+        .inactivo {
+          display: inline;
+        }
+
+        p {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+
+    .historia {
+      padding: 0 8.33vw;
+      gap: 2.08vw;
+    }
+
+    .productos {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1.67vw;
+      margin: 3.89vw auto 5.56vw auto;
+      padding: 0;
+
+      div {
+        flex-direction: column;
+        gap: 2.08vw;
+        width: auto;
+
+        img {
+          width: 13.89vw;
+          height: 13.89vw;
+        }
+
+        div {
+          align-items: center;
+          gap: 1.74vw;
+          width: 26.81vw;
+
+          h4 {
+            font-size: 1.88vw;
+            line-height: 2.22vw;
+          }
+
+          p {
+            text-align: center;
+          }
+        }
+      }
+
+      .invertido {
+        flex-direction: column;
+      }
+    }
+
+    .mensaje {
+      margin: 0 8.47vw 0;
+      padding: 2.78vw 7.08vw;
+
+      h4 {
+        width: 68.96vw;
+        height: 11.6vw;
+        font-size: 2.08vw;
+        line-height: 3.89vw;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .lineaProductos {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9.03vw 8.33vw 0 8.33vw;
+    gap: 8.4vw;
+
+    .descripcion {
+      h1 {
+        font-size: 4.72vw;
+        line-height: 5.56vw;
+      }
+
+      p {
+        font-size: 2.78vw;
+        line-height: 3.89vw;
+        margin-top: 11.53vw;
+        margin-bottom: 1.39vw;
+        width: 55.07vw;
+
+        br {
+          display: inline;
+        }
+      }
+
+      .textoJabones {
+        margin-bottom: 4.86vw;
+      }
+    }
+
+    .productos {
+      flex-direction: column;
+      margin: auto 0 0 0;
+      width: 19.79vw;
+      align-items: center;
+      gap: 1.39vw;
+
+      div {
+        gap: 0.9vw;
+        position: relative;
+        width: 100%;
+
+        img {
+          width: 19.79vw;
+        }
+
+        p {
+          font-size: 1.39vw;
+          line-height: 1.67vw;
+        }
+
+        .inactivo {
+          display: none;
+        }
+
+        a {
+          all: unset;
+          cursor: pointer;
+          width: 19.79vw;
+        }
+
+        div {
+          position: relative;
+
+          &::after {
+            content: "VER PRODUCTO";
+            font-size: 1.53vw;
+            font-weight: 700;
+            color: $terciarioClaro;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 21.69vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(40, 82, 75, 0.8);
+            opacity: 0;
+            transition: 150ms ease-out;
+          }
+
+          &:hover {
+            &::after {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .popUpWhatsApp {
+    margin-bottom: 126px;
+    margin-top: 17px;
+    bottom: 0.76vw;
+    margin-right: 0.76vw;
+
+    .nav-bottom {
+      padding: 0.35vw;
+
+      .popup-whatsapp {
+        width: 18.75vw;
+        bottom: 5.9vw;
+        right: 0.83vw;
+        border-radius: 0.69vw;
+        box-shadow: 0.14vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+
+        .content-whatsapp {
+          p {
+            font-size: 0.83vw;
+            padding: 0.35vw 0 0px 0.76vw;
+          }
+
+          .closePopup {
+            width: 1.46vw;
+            height: 1.46vw;
+            box-shadow: 0.07vw 0.07vw 0.14vw 0px rgba(68, 68, 68, 0.705);
+
+            svg {
+              width: 1.53vw;
+              height: 1.53vw;
+            }
+          }
+
+          .logoWhatsApp {
+            border-radius: 0.49vw 0.49vw 0 0;
+            gap: 0.76vw;
+            padding: 0.63vw 2.01vw 0.63vw 0.97vw;
+
+            p {
+              font-size: 0.83vw;
+            }
+          }
+        }
+
+        .-bottom {
+          border-radius: 0 0 0.49vw 0.49vw;
+
+          .whats-input[type="text"] {
+            width: 14.38vw;
+            height: 2.43vw;
+            margin: 0.35vw 0 0.83vw 0;
+            border-radius: 0.76vw;
+            font-size: 0.89vw;
+          }
+
+          .send-msPopup {
+            width: 1.74vw;
+            height: 1.74vw;
+            margin-right: 0.14vw;
+            margin-left: 0.76vw;
+            margin-bottom: 0.35vw;
+            border: 0.21vw solid #444444;
+          }
+        }
+      }
+
+      .whatsapp-button {
+        width: 3.19vw;
+        height: 3.19vw;
+        padding: 0.49vw;
+        box-shadow: 0.07vw 0.07vw 6px 0px rgba(68, 68, 68, 0.705);
+
+        .float {
+          font-size: 3.13vw;
+
+          .my-float {
+            padding: 0.69vw;
+            font-size: 3.13vw;
+          }
+        }
+      }
+
+      input.whats-input[type="text"] {
+        width: 14.38vw;
+        height: 2.08vw;
+        border-radius: 0.49vw;
+        font-size: 1.11vw;
+        padding: 0px 0px 0px 0.69vw;
+      }
+
+      .icon-font-color--black {
+        color: #444444;
+        padding-left: 0.14vw;
+        font-size: 1.32vw;
+      }
+    }
+  }
+}
